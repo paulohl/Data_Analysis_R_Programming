@@ -1,10 +1,12 @@
-Logical operators and conditional statements
+# Logical operators and conditional statements
 
 Earlier, you learned that an **operator** is a symbol that identi es the type of operation or calculation to be performed in a formula. In this reading, you’ll learn about the main types of logical operators in R, and how they can be used to create conditional statements in R code.
 
-# Logical operators
 
-![](media/4172ea5313fbafe7470ee0de794a3fd5.jpg)
+
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QK9jcwH4RPivY3MB-LT4UA_739195f45be24e558e04b1e71df55cc2_Screen-Shot-2021-03-04-at-9.29.39-AM.png?expiry=1686960000000&hmac=0NY8xQFPPkG_Mq-5gBq6QH0w5fotQnfT15qFJY4QenA)    
+
+## Logical operators
 
 **Logical** **operators** return a logical data type such as TRUE or FALSE.
 
@@ -42,7 +44,7 @@ Let’s check out an example of how you might use logical operators to analyze d
 
 The data frame has six columns: Ozone (the ozone measurement), Solar.R (the solar measurement), Wind (the wind measurement), Temp (the temperature in Fahrenheit), and the Month and Day of these measurements (each row represents a speci c month and day combination).
 
-![](media/c24f25704dbc594b736b1b1a91151788.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/KyQMjIMnQOOkDIyDJ1DjtQ_3cf5fd385d564847939e6ae0ef867af6_pasted-image-0.png?expiry=1686960000000&hmac=ufyD_i6ObnWf0-UJX9TcBkZrtkilOdcPTkpjGH2c6GM)
 
 Let’s go through how the AND, OR, and NOT operators might be helpful in this situation.
 
@@ -54,7 +56,7 @@ In R, you can express this logical statement as Solar.R \> 150 & Wind \> 10.
 
 Only the rows where *both* of these conditions are true ful ll the criteria:
 
-![](media/ab02c42488cb315ef8805a7e8326cf44.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/UkM2a25mSAODNmtuZugD7A_0f9d0b6b38294d19b8c8775daa1e6686_unnamed.png?expiry=1686960000000&hmac=fKS6Ejn2bGnlHpWtsYAGdz6Po280YMDKd1yc9lPw19k)
 
 ## OR example
 
@@ -64,7 +66,7 @@ In R, you can express this logical statement as Solar.R \> 150 \| Wind \> 10.
 
 All the rows where *either* of these conditions are true ful ll the criteria:
 
-![](media/a2be86d1aef9067ce5b80cfd20d51e8b.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/BiQTSOx1Qz2kE0jsdZM9Qg_d80e67ab81444bc79158b097434b05bf_unnamed-1-.png?expiry=1686960000000&hmac=K48ga97sg2p-gteFngVP37BwbYOXtiCvuuosZvwMIHk)
 
 ## NOT example
 
@@ -72,7 +74,7 @@ Now, imagine you just want to focus on the weather measurements for days that ar
 
 In R, you can express this logical statement as Day != 1. The rows where this condition is true ful ll the criteria:
 
-![](media/c54557d6ad3af36d43dbf18b777ddcd5.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Xg4WXZgIS-aOFl2YCNvmSA_756d3a7c761348208f31aa83c2b49479_unnamed-2-.png?expiry=1686960000000&hmac=tFAm-V4FlFcumJfUCX0OpNBIpSgsWU5Fyiek1ZFId9I)
 
 Finally, imagine you want to focus on scenarios that are not extremely sunny and not extremely windy, based on your previous de nitions of extremely sunny and extremely windy. In other words, the following statement should *not* be true: either a Solar measurement greater than 150 *or* a Wind measurement greater than 10.
 
@@ -80,7 +82,7 @@ Notice that this statement is the opposite of the OR statement used above. To ex
 
 In this case, only one row ful lls the criteria:
 
-![](media/073c609be99cc1839d70f415cefaca3b.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/K8erATULR16HqwE1C3deAg_da0f95bba16042bca56b7b9c967ec986_pasted-image-0-1-.png?expiry=1686960000000&hmac=vFu-8KwxvpScvwfy9zuZiJMkPqaXdWtl90dOMQO-3HU)
 
 # Conditional statements
 
@@ -90,8 +92,10 @@ Let’s discuss how to create conditional statements in R using three related st
 
 -   **if()**
 -   **else()**
+-   **else if()**-
 
-## ● else if() if statement
+
+### if statement
 
 The **if** statement sets a condition, and if the condition evaluates to TRUE, the R code associated with the if statement is executed.
 
