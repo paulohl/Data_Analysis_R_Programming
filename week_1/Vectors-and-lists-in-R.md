@@ -1,4 +1,4 @@
-Vectors and lists
+# Vectors and lists
 
 In programming, a **data** **structure** is a format for organizing and storing data. Data structures are important to understand because you will work with them frequently when you use R for data analysis. The most common data structures in the R programming language include:
 
