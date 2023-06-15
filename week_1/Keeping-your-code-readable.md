@@ -1,8 +1,8 @@
-Keeping Your Code Readable
+# Keeping Your Code Readable
 
 When writing R code (or any other programming language), it is important to use a clear and consistent style that is free from errors. This helps make your code easier to read and understand. In this reading, you will learn some best practices to follow when writing R code. You will also go through some tips for identifying and fixing errors in R code, also known as debugging.
 
-# Style
+## Style
 
 Using a clear and consistent coding style generally makes your code easier for others to read. There’s no o fficial coding style guide that is mandatory for all R users. But over the years, the wider community of R users has developed a coding style based on shared conventions and preferences. You can think of these conventions as the unwri tt en rules of R style.
 
@@ -49,7 +49,7 @@ Resources
 -   Check out this [tidyverse](https://style.tidyverse.org/files.html#names) <https://style.tidyverse.org/files.html#names> <https://style.tidyverse.org/files.html#names>[style](https://style.tidyverse.org/files.html#names) <https://style.tidyverse.org/files.html#names> <https://style.tidyverse.org/files.html#names>[guide](https://style.tidyverse.org/files.html#names) to get a more comprehensive breakdown of the most important stylistic conventions for writing R code (and working with the tidyverse).
 -   The styler package is an automatic styling tool that follows the tidyverse formatting rules. Check out the [styler](https://styler.r-lib.org/index.html) webpage to learn more about the basic features of this tool.
 
-# Debugging
+## Debugging
 
 Successfully debugging any R code begins with correctly diagnosing the problem. The first step in diagnosing the problem in your code is to understand what you expected to occur. Then, you can identify what actually occurred, and how it diff ered from your expectations.
 
