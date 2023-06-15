@@ -1,4 +1,4 @@
-Vectors and lists
+# Vectors and lists
 
 In programming, a **data** **structure** is a format for organizing and storing data. Data structures are important to understand because you will work with them frequently when you use R for data analysis. The most common data structures in the R programming language include:
 
@@ -9,7 +9,7 @@ In programming, a **data** **structure** is a format for organizing and storing 
 
 Think of a data structure like a house that contains your data.
 
-![](media/3020b8bcb23d131b3c78892dbf838224.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bl3TV2_tQ6-d01dv7VOvZQ_af2142e028e34bbc8d929866591e429d_Screen-Shot-2021-04-13-at-4.14.30-PM.png?expiry=1686960000000&hmac=P0vl2Cdsa42ikn3pTrZ0PSnVqyol8-QqE85qcoywQmA)
 
 This reading will focus on vectors. Later on, you’ll learn more about data frames, matrices, and arrays. There are two types of vectors: **atomic** **vectors** and **lists**. Coming up, you’ll learn about the basic properties of atomic vectors and lists, and how to use R code to create them.
 
@@ -30,7 +30,7 @@ There are six primary types of atomic vectors: logical, integer, double, charact
 
 This diagram illustrates the hierarchy of relationships among these four main types of vectors:
 
-![](media/7575f61a791761516e9058214aa3e02a.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/UplCKfO6Qo6ZQinzunKOew_19acadeec69a4cfaa8197b18525a4c44_Screen-Shot-2021-03-02-at-2.02.18-PM.png?expiry=1686960000000&hmac=GzJPOFhCKZ3xkZ5rc3zZI9k-YEWOcbKmalz9aWQ5DsE)
 
 ## Creating vectors
 
