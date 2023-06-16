@@ -1,10 +1,10 @@
-Data import
+# Data import
 
 In this reading, you will learn the basics of importing data into R. ​ It comes with built-in datasets that are great tools for learning how to use R and practice analyzing data. You will explore the ​ **data() ​** function and learn how to load sample datasets into RStudio. Then you will go through how to use two tidyverse packages—readr and readxl—to import files from other sources into R. You will learn how to use readr to read a .csv file, and how to use readxl to read a .xlsx file.
 
 # The data() function
 
-![](media/005bf4fd6d29f7bdcc09b17b1aea4c27.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XbxlyImrQgu8ZciJq0ILuA_c3ff7fa1744d497e9267078d16058e2c_Screen-Shot-2021-02-11-at-1.41.31-PM.png?expiry=1687046400000&hmac=smMhQj4S4Pl1hYOaPo-3wEd3ISvL_Vymg7rDIuV-EoA)
 
 The default installation of R comes with a number of preloaded datasets that you can practice with. This is a great way to develop your R skills and learn about some important data analysis functions. Plus, many online resources and tutorials use these sample datasets to teach coding concepts in R.
 
@@ -14,7 +14,7 @@ data()
 
 This includes the list of preloaded datasets from the “datasets” package.
 
-![](media/c8a96189d76f728837b53def2850dd6d.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PhGaBTlcTqORmgU5XP6jSg_ebb5d20662444ab2bca76352ee5a256e_Screen-Shot-2021-01-22-at-11.39.53-AM.png?expiry=1687046400000&hmac=6MPjP9oEU9xWjIB8hMtud947HttElhnRIVvIoM-4UvI)
 
 If you want to load a specific dataset, just enter its name in the parentheses of the ​ **data() ​** function. For example, let’s load the
 
@@ -26,39 +26,20 @@ When you run the function, R will load the dataset. The dataset will also appear
 
 In this image, “mtcars” appears in the fifth row of the pane. R tells us that it contains 32 observations and 11 variables.
 
-![](media/e0edf7b6023b3ecbd27d861a13d925b4.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/7R_zhy6aSKKf84cumgiiOQ_6fbbeda64ee1472691965bc9bb309cee_Screen-Shot-2021-01-22-at-12.27.39-PM.png?expiry=1687046400000&hmac=SxV4jzRxkolpARKnMHt9wE5tX4BUsa9s5b8aGTXUl0k)
 
 Now that the dataset is loaded, you can get a preview of it in the R console pane. Just type its name...
 
 mtcars
 
-...and then press ctrl (or cmnd) and enter.
+...and then press ctrl (or cmnd) and enter.    
 
-mpg cyl disp hp drat wt qsec vs am gear carb
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yh5xum5tSnKecbpubbpyxg_d7e1505d50fd4d73aa0ef186cd2d56d5_Screen-Shot-2021-03-15-at-3.36.50-PM.png?expiry=1687046400000&hmac=Nf1Z2BWfumYALiTpj60_LU7WOkvUhPyd67yacwsdC6s)
 
-Mazda RX4 21.0 6 160.0 110 3.90 2.620 16.46 0 1 4 4
-
-Mazda Rx4 Wag 21.0 6 160.0 110 3.90 2.875 17.02 0 1 4 4
-
-Datsun 710 22.8 4 108.0 93 3.85 2.320 18.62 1 0 4 1
-
-Hornet 4 Drive 21.4 6 258.0 110 3.08 3.215 19.44 1 0 3 1
-
-Hornet Sportabout 18.7 8 360.0 175 3.15 3.440 17.02 0 0 3 2
-
-Valiant 18.1 6 225.0 105 2.76 3.460 20.22 0 0 3 1
-
-Duster 360 14.3 8 360.0 245 3.21 3.570 15.84 0 0 3 4
-
-Merc 250D 24.4 4 146.7 62 3.69 3.190 20.00 0 0 4 2
-
-Merc 230 22.8 4 140.8 95 3.92 3.150 22.90 0 0 4 2
-
-Merc 280 19.2 6 167.6 123 3.2 3.440 18.30 0 0 4 4
 
 You can also display the dataset by clicking directly on the name of the dataset in the environment pane. So, if you click on **mtcars** in the environment pane, R automatically runs the View() function and displays the dataset in the RStudio data viewer.
 
-![](media/308bac85d0ba24f462f9ceb921c8ffb9.jpg)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/32SAqnVYSw-kgKp1WJsPeg_a22883468a134223b74b1f39c5f61655_Screen-Shot-2021-01-22-at-12.10.49-PM.png?expiry=1687046400000&hmac=E7GaXGbsPFRe2PBKh4r2fHvOZqc0oYuwCvIDwJhQMIc)
 
 Try experimenting with other datasets in the list if you want some more practice.
 
@@ -111,25 +92,11 @@ read_csv(readr_example("mtcars.csv"))
 
 When you run the function, R prints out a column specification that gives the name and type of each column.
 
-── **Column**​ **specification** ​ ─────────────────────────────────────────────────── cols( mpg = col_double(), cyl = col_double(), disp = col_double(), hp = col_double(), drat = col_double(), wt = col_double(), qsec = col_double(), vs = col_double(), am = col_double(), gear = col_double(), carb = col_double()
-
-)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CMuq5sbuRZmLqubG7nWZ_g_44b244d4cac447e191fc0d59b94d205d_Screen-Shot-2021-03-15-at-3.42.43-PM.png?expiry=1687046400000&hmac=CTn3hcYySRDt8ba7ZRzoIPQPmDUOblFv5NGEbDr2oYc)
 
 R also prints a tibble.
 
-\# A tibble: 32 x 11 mpg cyl disp hp drat wt qsec vs am gear carb
-
-​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*​ ​*\<dbl\>*
-
-1 21 6 160 110 3.9 2.62 16.5 0 1 4 4
-
-1.  18.1 6 225 105 2.76 3.46 20.2 1 0 3 1
-2.  14.3 8 360 245 3.21 3.57 15.8 0 0 3 4
-3.  24.4 4 147. 62 3.69 3.19 20 1 0 4 2 9 22.8 4 141. 95 3.92 3.15 22.9 1 0 4 2
-
-10 19.2 6 168. 123 3.92 3.44 18.3 1 0 4 4
-
-\# … with 22 more rows
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PgvbBFMSRGCL2wRTEtRgsA_1d5362c17f2249dab6a936e09520d84a_Screen-Shot-2021-03-15-at-3.38.20-PM.png?expiry=1687046400000&hmac=Vm5C9vGDKliJ5g8SLCBJdW_Yrg4oqX99FPAwP17AjuM)
 
 # readxl
 
@@ -165,19 +132,7 @@ read_excel(readxl_example("type-me.xlsx"), sheet = "numeric_coercion")
 
 When you run the function, R returns a tibble of the sheet.
 
-\# A tibble: 7 x 2
-
-\`maybe numeric?\` explanation
-
-\<chr\> \<chr\>
-
-1.  NA "empty"
-2.  TRUE "boolean true"
-3.  FALSE "boolean false" 4 40534 "datetime"
-
-5 123456 "the string \\"123456\\"" 6 123456 "the number 123456"
-
-7 cabbage "\\"cabbage\\""
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zqCV7mPlQl-gle5j5ZJfEg_ecec2bacbde34a2caa93c8518c8f95a4_Screen-Shot-2021-03-15-at-3.40.40-PM.png?expiry=1687046400000&hmac=aPcxQazCnBRwEvcL_J89eYB0q_HF1k1O0Af-QWo_Nuc)
 
 ## Resources
 
