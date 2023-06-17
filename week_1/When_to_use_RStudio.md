@@ -5,7 +5,7 @@ As a data analyst, you will have plenty of tools to work with in each phase of y
 using SQL with a database. In this reading, you will go through some examples of when working in R and RStudio might be your better option instead.    
 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/2d5GdNCHRK2eRnTQh3Stvg_8fe5c89ac37a49ad884a4e5093e1edf9_Screen-Shot-2021-04-13-at-5.09.01-PM.png?expiry=1686960000000&hmac=rQUeL-einx6rgeHnwRvdzCFgUPLmZX6S6DYJydkrmYg)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-10.png)
 
 ## Why RStudio?   
 
