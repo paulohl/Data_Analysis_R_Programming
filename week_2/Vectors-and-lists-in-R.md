@@ -13,7 +13,7 @@ Think of a data structure like a house that contains your data.
 
 This reading will focus on vectors. Later on, you’ll learn more about data frames, matrices, and arrays. There are two types of vectors: **atomic** **vectors** and **lists**. Coming up, you’ll learn about the basic properties of atomic vectors and lists, and how to use R code to create them.
 
-# Atomic vectors
+## Atomic vectors
 
 First, we will go through the di erent types of atomic vectors. Then, you will learn how to use R code to create, identify, and name the vectors.
 
@@ -34,7 +34,7 @@ This diagram illustrates the hierarchy of relationships among these four main ty
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-03.png)
 
-## Creating vectors
+### Creating vectors
 
 One way to create a vector is by using the **c()** function (called the “combine” function). The **c()** function in R combines multiple values into a vector. In R, this function is just the letter “c” followed by the values you want in your vector inside the parentheses, separated by a comma: **c(x,** **y,** **z,** **…)**.
 
@@ -58,7 +58,7 @@ c(TRUE, FALSE, TRUE)
 ```
 
 
-## Determining the properties of vectors
+### Determining the properties of vectors
 
 Every vector you create will have two key propertes: type and length.
 
@@ -131,7 +131,7 @@ x
 
 Remember that an atomic vector can only contain elements of the same type. If you want to store elements of di erent types in the same data structure, you can use a list.
 
-## Creating Lists
+### Creating Lists
 
 **Lists** are di erent from atomic vectors because their elements can be of any type—like dates, data frames, vectors, matrices, and more. Lists can even contain other lists.
 
