@@ -6,7 +6,7 @@ data in R into date and date-time formats.
 
 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/57pibXtaSC66Ym17WlguWA_057b3ecf1e5b4d9fac84f372cc484d43_Screen-Shot-2021-03-02-at-1.24.26-PM.png?expiry=1686960000000&hmac=uJ7dn1llUS4VHyOMULGZgfqP9JssCsMPKXDa534TVdg)    
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/57pibXtaSC66Ym17WlguWA_057b3ecf1e5b4d9fac84f372cc484d43_Screen-Shot-2021-03-02-at-1.24.26-PM.png?expiry=1687132800000&hmac=iiPHYSF8OE30INnHVID-J3x-ZpRRQNwlXJMuKq2a9i8)    
 
 
 ## Loading tidyverse and lubridate packages    
