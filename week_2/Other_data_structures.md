@@ -10,7 +10,7 @@ simple ways to make use of them using R code. You will also briefly **explore** 
 Recall that a data structure is like a house that contains your data.    
 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_uX1M1dtQXSl9TNXbcF0CA_a4a13bf6703c4721a0cb8e818763fbea_Screen-Shot-2021-02-16-at-9.37.11-AM.png?expiry=1686960000000&hmac=otOpThxMNrk0H7CgPMHaU1XvdVESxzgWDU06lkP8f0Y)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-06.png)
 
 ### Data frames    
 
@@ -22,7 +22,7 @@ and organize it into a format that is easy to read and use.
 For example, the data frame below shows the “diamonds” dataset, which is one of the preloaded datasets in R. Each column contains a single variable that is related to diamonds: 
 carat, cut, color, clarity, depth, and so on. Each row represents a single observation.    
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zM_4uyarShCP-Lsmq5oQGA_3d374e9a128a4086a9945e00bd21ed4d_Screenshot-2020-11-02-at-9.43.48-AM.png?expiry=1686960000000&hmac=YmfAl7TruCZA_MKTKhGrUcobjGHRbiPOrBqNWtEYxkk)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-05.png)    
 
 
 There are a few key things to keep in mind when you are working with data frames: 
@@ -80,7 +80,7 @@ file.copy (“new_text_file.txt” , “destination_folder”)
 
 If you check the Files pane in RStudio, a copy of the file appears in the relevant folder:    
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/6AVUXMXZT56FVFzF2V-eLw_bd3aab8ba09942b6bf45a8ddb8b8e991_unnamed-6-.png?expiry=1686960000000&hmac=oyR5y0RBJ9ceFZt05nb564MWilDq0dEvawFlWyyf2hY)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/unnamed-6-.png)
 
 
 
