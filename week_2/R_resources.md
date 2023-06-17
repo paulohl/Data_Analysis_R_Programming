@@ -1,6 +1,6 @@
 # R resources for more help    
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yQ8dGcmbQLCPHRnJm6CwNg_ec3d0ccf60ac467f8bc901eea2c9fa49_Screen-Shot-2021-02-16-at-9.42.26-AM.png?expiry=1686960000000&hmac=LBx0L4G2JVavK7lquGvu-5lSTE1KoJ54EDU55bMvZ0I)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-07.png)    
 
 
 
