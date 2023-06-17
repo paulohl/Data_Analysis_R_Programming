@@ -1,4 +1,4 @@
-Logical operators and conditional statements
+# Logical operators and conditional statements
 
 Earlier, you learned that an **operator** is a symbol that identi es the type of operation or calculation to be performed in a formula. In this reading, you’ll learn about the main types of logical operators in R, and how they can be used to create conditional statements in R code.
 
