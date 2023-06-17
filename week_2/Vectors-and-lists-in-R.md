@@ -135,72 +135,85 @@ Remember that an atomic vector can only contain elements of the same type. If yo
 
 **Lists** are di erent from atomic vectors because their elements can be of any type—like dates, data frames, vectors, matrices, and more. Lists can even contain other lists.
 
-You can create a list with the **list()** function. Similar to the **c()** function, the **list()** function is just **list** followed by the values you want in your list inside parentheses: **list(x,**  **y,**  **z,**  **…)**. In this example, we create a list that contains four di erent kinds of elements: character (**“a”**), integer (**1L**), double (**1.5**), and logical (**TRUE**).
-
+You can create a list with the **list()** function. Similar to the **c()** function, the **list()** function is just `list` followed by the values you want in your list inside parentheses: **list(x,**  **y,**  **z,**  **…)**. In this example, we create a list that contains four di erent kinds of elements: character (`“a”`), integer (`1L`), double (`1.5`), and logical (`TRUE`).
+```r
 list("a", 1L, 1.5, TRUE)
-
+```
 Like we already mentioned, lists can contain other lists. If you want, you can even store a list inside a list inside a list—and so on.
-
+```r
 list(list(list(1 , 3, 5)))
-
+```
 ### Determining the structure of lists
 
 If you want to find out what types of elements a list contains, you can use the **str()** function. To do so, place the code for the list inside the parentheses of the function. When you run the function, R will display the data structure of the list by describing its elements and their types.
 
-Let’s apply the **str()** function to our first example of a list.
-
+Let’s apply the str() function to our first example of a list.
+```r
 str(list("a", 1L, 1.5, TRUE))
+```
+We run the function, then R tells us that the list contains four elements, and that the elements consist of four di erent types: character (`chr`), integer (`int`), number (`num`), and logical (`logi`).
+```r
+#> List of 4
 
-We run the function, then R tells us that the list contains four elements, and that the elements consist of four di erent types: character (**chr**), integer (**int**), number (**num**), and logical (**logi**).
+#>  $ : chr "a"
 
-\#\> List of 4
+#>  $ : int 1
 
-| \#\>  | \$ : chr "a"    |
-|-------|-----------------|
-| \#\>  | \$ : int 1      |
-| \#\>  | \$ : num 1.5    |
-| \#\>  | \$ : logi TRUE  |
+#>  $ : num 1.5
+
+#>  $ : logi TRUE
+```
+
 
 Let’s use the str() function to discover the structure of our second example. First, let’s assign the list to the variable z to make it easier to input in the str() function.
-
-z \<- list(list(list(1 , 3, 5)))
-
+```r
+z <- list(list(list(1 , 3, 5)))
+```
 Let’s run the function.
-
+```r
 str(z)
 
-\#\> List of 1
+#> List of 1
 
-\#\> \$ :List of 1
+#>  $ :List of 1
 
-\#\> ..\$ :List of 3
+#>   ..$ :List of 3
 
-\#\> .. ..\$ : num 1
+#>   .. ..$ : num 1
 
-\#\> .. ..\$ : num 3
+#>   .. ..$ : num 3
 
-\#\> .. ..\$ : num 5
+#>   .. ..$ : num 
+```
 
-The indentation of the **\$** symbols reflect the nested structure of this list. Here, there are three levels (so there is a list within a list within a list).
+
+The indentation of the **$** symbols reflect the nested structure of this list. Here, there are three levels (so there is a list within a list within a list).
 
 ### Naming lists
 
 Lists, like vectors, can be named. You can name the elements of a list when you first create it with the list() function:
+```r
+list('Chicago' = 1, 'New York' = 2, 'Los Angeles' = 3)
 
-list("Chicago” = 1, “New York” = 2, “Los Angeles” = 3)
-
-\$Chicago
+$Chicago
 
 [1] 1
 
-\$\`New York\`
+$`New York`
 
 [1] 2
 
-\$\`Los Angeles\`
+$`Los Angeles`
 
 [1] 3
+```
+
 
 #### Additional resource
 
-To learn more about vectors and lists, check out <https://r4ds.had.co.nz/vectors.html#vectors>[R](https://r4ds.had.co.nz/vectors.html#vectors) <https://r4ds.had.co.nz/vectors.html#vectors>[for](https://r4ds.had.co.nz/vectors.html#vectors) <https://r4ds.had.co.nz/vectors.html#vectors>[Data](https://r4ds.had.co.nz/vectors.html#vectors) <https://r4ds.had.co.nz/vectors.html#vectors>[Science,](https://r4ds.had.co.nz/vectors.html#vectors) <https://r4ds.had.co.nz/vectors.html#vectors>[Chapter](https://r4ds.had.co.nz/vectors.html#vectors) <https://r4ds.had.co.nz/vectors.html#vectors>[20:](https://r4ds.had.co.nz/vectors.html#vectors) <https://r4ds.had.co.nz/vectors.html#vectors>[Vectors](https://r4ds.had.co.nz/vectors.html#vectors). R for Data Science is a classic resource for learning how to use R for data science and data analysis. It covers everything from cleaning to visualizing to communicating your data. If you want to get more details about the topic of vectors and lists, this chapter is a great place to start.
+To learn more about vectors and lists, check out 
+[R for Data Science, Chapter 20: Vectors](https://r4ds.had.co.nz/vectors.html#vectors)
+. R for Data Science is a classic resource for learning how to use R for data science and data analysis. It covers everything from cleaning to visualizing to communicating your data. If you want to get more details about the topic of vectors and lists, this chapter is a great place to start.     
+
+
+
