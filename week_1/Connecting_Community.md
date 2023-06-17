@@ -5,7 +5,7 @@ R is a powerful tool in your data analysis toolkit–and it also has a powerful 
 This reading will give you a few places where you can start to connect, online and in-person, with other analysts in the R community.    
 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/maluE2MKSTWpbhNjCok1rw_171e819085bc44b5aac6e6ddd6388839_Screen-Shot-2021-04-13-at-4.12.47-PM.png?expiry=1686960000000&hmac=0d1sRIooelQINdikqHhLLNtK-IbFmcUh5tZ7D1NcYS4)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-08.png)
 
 
 ## Online communities    
