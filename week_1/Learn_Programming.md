@@ -5,7 +5,7 @@ Writing programming language code can be an exciting and rewarding experience. T
 best practices. You will focus on the R programming language in this course, but in the future you might choose to pursue additional programming languages based on your interests and 
 professional goals. This reading is a general guide to help you decide which programming languages are best suited for you.     
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/rSmouYuXTv2pqLmLl1799Q_066fd98714e24f1e91522e87536cae58_Screen-Shot-2021-03-04-at-10.13.34-AM.png?expiry=1686960000000&hmac=pGJUWrDMXx4PR1_Wb5QWGDE4XwL-yxBKI3Dgzd4fw8A)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-09.png)    
 
 
 ## Popular programming languages by profession    
