@@ -1,19 +1,59 @@
 # Logical operators and conditional statements
 
-Earlier, you learned that an **operator** is a symbol that identi es the type of operation or calculation to be performed in a formula. In this reading, you’ll learn about the main types of logical operators in R, and how they can be used to create conditional statements in R code.
+Earlier, you learned that an **operator** is a symbol that identi es the type of operation or calculation to be performed in a formula. In this reading, you’ll learn about the main types of logical operators in R, and how they can be used to create conditional statements in R code.    
+
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-11.png)    
+
+
 
 # Logical operators
 
-![](media/4172ea5313fbafe7470ee0de794a3fd5.jpg)
+
 
 **Logical** **operators** return a logical data type such as TRUE or FALSE.
 
 There are three primary types of logical operators:
 
 -   AND (sometimes represented as & or && in R)
--   OR (sometimes represented as \| or \|\| in R) ● NOT (!)
+-   OR (sometimes represented as \| or \|\| in R) ●
+-   NOT (!)
 
 This table summarizes the logical operators:
+
+- The AND operator takes two logical values. It returns `TRUE` only if both individual values are TRUE. This means that TRUE & TRUE evaluates to `TRUE`. However, FALSE & TRUE, TRUE & FALSE, and FALSE & FALSE all evaluate to `FALSE`.
+- If you run the corresponding code in R, you get the following results:
+
+```r
+TRUE & TRUE
+[1] TRUE
+> TRUE & FALSE
+[1] FALSE
+> FALSE & TRUE
+[1] FALSE
+> FALSE & FALSE
+[1] FALSE
+```
+You can illustrate this using the results of our comparisons. Imagine you create a variable x that is equal to 10. 
+
+x <- 10
+
+To check if x is greater than 3 but less than 12, you can use x > 3 and x < 12 as the values of an “AND” expression. 
+
+x > 3 & x < 12
+
+When you run the function, R returns the result TRUE.
+
+[1] TRUE
+
+The first part, x > 3 will evaluate to TRUE since 10 is greater than 3. The second part, x < 12 will also evaluate to TRUE since 10 is less than 12. So, since both values are TRUE, the result of the AND expression is TRUE. The number 10 lies between the numbers 3 and 12. 
+
+However, if you make x equal to 20, the expression x > 3 & x < 12 will return a different result. 
+
+x <- 20
+x > 3 & x < 12
+[1] FALSE
+
+Although x > 3 is TRUE (20 > 3), x < 12 is FALSE (20 < 12). If one part of an AND expression is FALSE, the entire expression is FALSE (TRUE & FALSE = FALSE). So, R returns the result FALSE
 
 | **AND** **operator** **“&”**              | **OR** **operator** **“\|”**                                                                                                                  | **NOT** **operator** **“!”**                                                     |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
