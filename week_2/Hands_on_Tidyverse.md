@@ -1,4 +1,4 @@
-![alt text](zyOCm7w4S3Sjgpu8OEt0dA_278f3482876c4a26aed5abe3841928b3_lightbulb-HandsOn.png?expiry=1687132800000&hmac=nOsLOaMpklqFaoiK1nns3CofZXcvX0s1P2iWLdIUiiU)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zyOCm7w4S3Sjgpu8OEt0dA_278f3482876c4a26aed5abe3841928b3_lightbulb-HandsOn.png?expiry=1687132800000&hmac=nOsLOaMpklqFaoiK1nns3CofZXcvX0s1P2iWLdIUiiU)
 
 
 
@@ -27,7 +27,7 @@ The core tidyverse contains the main packages that work together to make your da
 
 To load the core tidyverse, type **library(tidyverse)** and press **Enter** (Windows) or **Return** (Mac).
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dlM07c_4TOqTNO3P-PzqzA_8ecc92c75a8a42f6a17932d13ba6d636_Screenshot-2021-03-10-4.40.11-PM---Display-2.png?expiry=1686960000000&hmac=1OpFHt7yKpH86HzXSaAEug9lbF4vM9pSTuHUkD_Z-nE)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dlM07c_4TOqTNO3P-PzqzA_8ecc92c75a8a42f6a17932d13ba6d636_Screenshot-2021-03-10-4.40.11-PM---Display-2.png?expiry=1687132800000&hmac=F0tdQtd02eXniPlfzRpkznMAHtMsWxY8r6KqEDomCz4)
 
 The output in the console indicates that you have loaded the core tidyverse. Each of the core packages has a green check next to it.
 
@@ -45,7 +45,7 @@ in R, so “Vignettes” must have a capital V.
 
 For example if you execute the **browseVignettes()** function on ggplot2, **browseVignettes(“ggplot2”)**, you will have the following outcome:
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/AiQ0Bm9QS6CkNAZvUIugHA_24d6d5e17de943278395ffd8ca5e8230_Screenshot-2021-03-10-4.49.33-PM---Display-2.png?expiry=1686960000000&hmac=kqypTvVa7xrKXLtgJ5B6vtYuMaVhc67mhHvzn4VafQo)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/AiQ0Bm9QS6CkNAZvUIugHA_24d6d5e17de943278395ffd8ca5e8230_Screenshot-2021-03-10-4.49.33-PM---Display-2.png?expiry=1687132800000&hmac=XoJG26gIf2GxKZ0rYuHbJ4pCD-PmngJbLLXw9YH_mi0)
 
 If you are using RStudio Cloud, running this function will open a new browser tab with links to the vignettes.
 
