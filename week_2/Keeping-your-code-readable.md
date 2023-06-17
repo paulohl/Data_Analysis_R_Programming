@@ -1,4 +1,4 @@
-Keeping Your Code Readable
+# Keeping Your Code Readable
 
 When writing R code (or any other programming language), it is important to use a clear and consistent style that is free from errors. This helps make your code easier to read and understand. In this reading, you will learn some best practices to follow when writing R code. You will also go through some tips for identifying and fixing errors in R code, also known as debugging.
 
