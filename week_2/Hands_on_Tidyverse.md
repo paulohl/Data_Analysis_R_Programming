@@ -1,4 +1,4 @@
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zyOCm7w4S3Sjgpu8OEt0dA_278f3482876c4a26aed5abe3841928b3_lightbulb-HandsOn.png?expiry=1686960000000&hmac=qImlK87S1_spNSB8271VZ2OvKGcdDn6jUtpZbloDK2c)
+![alt text](zyOCm7w4S3Sjgpu8OEt0dA_278f3482876c4a26aed5abe3841928b3_lightbulb-HandsOn.png?expiry=1687132800000&hmac=nOsLOaMpklqFaoiK1nns3CofZXcvX0s1P2iWLdIUiiU)
 
 
 
@@ -18,7 +18,7 @@ Log in, navigate to the console, type **install.packages("tidyverse")**, and pre
 
 Then wait as RStudio installs the tidyverse packages (be patient, this can take a little bit). You’ll receive a message that the install is done.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QsD4Eh1fSNaA-BIdX-jWBg_5bc00d790de243f0813863f14d3316d7_image4.png?expiry=1686960000000&hmac=lbTUM9wOgpdOAUx69vmIqovpzGMdUAC3Ap8IFsqJZls)
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QsD4Eh1fSNaA-BIdX-jWBg_5bc00d790de243f0813863f14d3316d7_image4.png?expiry=1687132800000&hmac=rS4d_Z0d6CHc6EzQIkuzQrcHq2C5Y3c55S54mt3e3Vg)
 
 ### Load the tidyverse
 __________________________________________________
