@@ -5,7 +5,7 @@ To make the most of R for your data analysis, you will need to install packages.
 The best part is that the R community creates and shares packages so that other users can access them! In this reading, you will learn more about widely used packages and where 
 to find them. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/cwtAaXw4R7GLQGl8OLexXg_2d66cd0388134062884115c5bdc28e7b_Screen-Shot-2021-04-13-at-4.16.34-PM.png?expiry=1687132800000&hmac=mwvUoN4HAwRDARFsAX_q3-zicZk9gNweoREPOlfq6bI)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-01.png)    
 
 
 Packages can be found in repositories, which are collections of useful packages that are ready to install. You can find repositories on 
