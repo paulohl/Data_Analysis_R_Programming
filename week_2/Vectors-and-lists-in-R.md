@@ -37,17 +37,17 @@ This diagram illustrates the hierarchy of relationships among these four main ty
 One way to create a vector is by using the **c()** function (called the “combine” function). The **c()** function in R combines multiple values into a vector. In R, this function is just the letter “c” followed by the values you want in your vector inside the parentheses, separated by a comma: **c(x,** **y,** **z,** **…)**.
 
 For example, you can use the **c()** function to store numeric data in a vector.
-
+```r
 c(2.5, 48.5, 101.5)
-
+```
 To create a vector of integers using the **c()** function, you must place an **L** directly after each number.
-
+```r
 c(1L, 5L, 15L)
-
+```
 You can also create a vector containing characters or logicals.
-
+```r
 c(“Sara” , “Lisa” , “Anna”) c(TRUE, FALSE, TRUE)
-
+```
 ## Determining the prope ies of vectors
 
 Every vector you create will have two key propertes: type and length.
@@ -55,23 +55,23 @@ Every vector you create will have two key propertes: type and length.
 You can determine what type of vector you are working with by using the **typeof()** function. Place the code for the vector inside the parentheses of the function. When you run the function, R will tell you the type.
 
 For example:
-
+'''r
 typeof(c(“a” , “b”))
 
 \#\> [1] "character"
-
+```
 Notice that the output of the typeof function in this example is the word “**character**”. Similarly, if you use the typeof function on a vector with integer values, then the output will include the word “**integer**” instead:
-
+```r
 typeof(c(1L , 3L))
 
 \#\> [1] "integer"
-
+```
 You can determine the length of an existing vector–meaning the number of elements it contains–by using the **length()** function. In this example, we use an assignment operator to assign the vector to the variable **x**. Then, we apply the **length()** function to the variable. When we run the function, R tells us the length is “**3**”.
-
+```r
 x \<- c(33.5, 57.75, 120.05) length(x)
 
 \#\> [1] 3
-
+```
 |  **is.double(),** |  **is.integer(),** |  **is.character()** . In  |
 |-------------------|--------------------|---------------------------|
 
