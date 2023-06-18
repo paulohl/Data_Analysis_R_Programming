@@ -4,7 +4,7 @@
 An important part of cleaning data is making sure that all of your files are accurately named. Although individual preferences will vary a bit, most analysts generally agree that 
 file names should be accurate, consistent, and easy to read. This reading provides some general guidelines for you to follow when naming or renaming your data files. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/d8S4T6vASYGEuE-rwEmBig_935b707fde474daa9ee08a34fc6a0b80_Screen-Shot-2021-03-10-at-9.55.24-PM.png?expiry=1687046400000&hmac=iOK0-NMpDYErQomdzadb5aRtnFAjdUKmVFVlBGpG-OI)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-13.png)    
 
 
 
