@@ -4,13 +4,13 @@
 You can save this reading for future reference. Feel free to download a PDF version of this reading below:
 
 
-> [Data import.pdf](https://d3c33hcgiwev3.cloudfront.net/kO62nTFvRAKutp0xbzQC0g_7f7c23790c334cea97fd6b96ff46a24d_Data-import.pdf?Expires=1687046400&Signature=WRxKenTrEaS0HRZ8USWQ0SkwqyP5rfU6rxORpo0zvZqDzkyxN7-Ls2gEC~9HuSJnW1Z9lmn7JHpNW51NDp3K82fPoci9BFRfjd4VSa2jrUgg2j8Ca2UzwOCo6Nw8Qz~nKSIw7RELfA0QEzT7armdgK0LwT0~XpVg7ZWas6UKTZI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)    
+> [Data import.pdf](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-15.png)    
 >
 > PDF file
 
 ### The data() function     
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XbxlyImrQgu8ZciJq0ILuA_c3ff7fa1744d497e9267078d16058e2c_Screen-Shot-2021-02-11-at-1.41.31-PM.png?expiry=1686960000000&hmac=Vv_jJ24MccqoKOoA4q7j_6enfdX1BjB66g3gqvDNhaI)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-16.png)
 
 
 The default installation of R comes with a number of preloaded datasets that you can practice with. This is a great way to develop your R skills and learn about some important data 
@@ -24,7 +24,7 @@ data()
 
 This includes the list of preloaded datasets from the datasets package.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PhGaBTlcTqORmgU5XP6jSg_ebb5d20662444ab2bca76352ee5a256e_Screen-Shot-2021-01-22-at-11.39.53-AM.png?expiry=1687046400000&hmac=6MPjP9oEU9xWjIB8hMtud947HttElhnRIVvIoM-4UvI)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-17.png)    
 
 
 If you want to load a specific dataset, just enter its name in the parentheses of the data() function. For example, let’s load the mtcars dataset, which has information about cars 
@@ -38,7 +38,7 @@ When you run the function, R will load the dataset. The dataset will also appear
 such as data frames and variables, that you have in your current workspace. In this image, mtcars appears in the fifth row of the pane. R tells us that it contains 32 observations 
 and 11 variables. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/7R_zhy6aSKKf84cumgiiOQ_6fbbeda64ee1472691965bc9bb309cee_Screen-Shot-2021-01-22-at-12.27.39-PM.png?expiry=1687046400000&hmac=SxV4jzRxkolpARKnMHt9wE5tX4BUsa9s5b8aGTXUl0k)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-18.png)   
 
 
 Now that the dataset is loaded, you can get a preview of it in the R console pane. Just type its name...
@@ -47,13 +47,13 @@ mtcars
 ```
 ...and then press ctrl (or cmnd) and enter.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yh5xum5tSnKecbpubbpyxg_d7e1505d50fd4d73aa0ef186cd2d56d5_Screen-Shot-2021-03-15-at-3.36.50-PM.png?expiry=1687046400000&hmac=Nf1Z2BWfumYALiTpj60_LU7WOkvUhPyd67yacwsdC6s)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-19.png)       
 
 
 You can also display the dataset by clicking directly on the name of the dataset in the Environment pane. So, if you click on **mtcars** in the Environment pane, R automatically runs 
 the View() function and displays the dataset in the RStudio data viewer. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/32SAqnVYSw-kgKp1WJsPeg_a22883468a134223b74b1f39c5f61655_Screen-Shot-2021-01-22-at-12.10.49-PM.png?expiry=1687046400000&hmac=E7GaXGbsPFRe2PBKh4r2fHvOZqc0oYuwCvIDwJhQMIc)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-20.png)
 
 
 
@@ -129,12 +129,12 @@ read_csv(readr_example("mtcars.csv"))
 
 When you run the function, R prints out a column specification that gives the name and type of each column. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CMuq5sbuRZmLqubG7nWZ_g_44b244d4cac447e191fc0d59b94d205d_Screen-Shot-2021-03-15-at-3.42.43-PM.png?expiry=1687046400000&hmac=CTn3hcYySRDt8ba7ZRzoIPQPmDUOblFv5NGEbDr2oYc)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-21.png)    
 
 
 R also prints a tibble. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PgvbBFMSRGCL2wRTEtRgsA_1d5362c17f2249dab6a936e09520d84a_Screen-Shot-2021-03-15-at-3.38.20-PM.png?expiry=1687046400000&hmac=Vm5C9vGDKliJ5g8SLCBJdW_Yrg4oqX99FPAwP17AjuM)   
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-22.png)   
 ___________________________________
 
 
@@ -175,7 +175,7 @@ read_excel(readxl_example("type-me.xlsx"), sheet = "numeric_coercion")
 ```
 When you run the function, R returns a tibble of the sheet. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zqCV7mPlQl-gle5j5ZJfEg_ecec2bacbde34a2caa93c8518c8f95a4_Screen-Shot-2021-03-15-at-3.40.40-PM.png?expiry=1687046400000&hmac=aPcxQazCnBRwEvcL_J89eYB0q_HF1k1O0Af-QWo_Nuc)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-22.png)    
 
 
 ### Additional resources
