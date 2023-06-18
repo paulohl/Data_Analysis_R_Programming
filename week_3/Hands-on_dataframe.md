@@ -1,4 +1,4 @@
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zyOCm7w4S3Sjgpu8OEt0dA_278f3482876c4a26aed5abe3841928b3_lightbulb-HandsOn.png?expiry=1686960000000&hmac=qImlK87S1_spNSB8271VZ2OvKGcdDn6jUtpZbloDK2c)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/lightbulb-HandsOn.png)
 
 
 ### Activity overview
