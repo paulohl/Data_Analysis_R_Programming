@@ -44,10 +44,13 @@ write your own functions. After you finish the steps in the Rmd file, return her
 _________________________________
 What is the average lead time for a hotel booking in this data set?
 
-( ) 14.0221
+(  ) 14.0221
 
-(X) 104.0114
+(●) 104.0114
 
-( ) 100.0011
+(  ) 100.0011
 
-( ) 45.0283
+(  ) 45.0283
+
+
+
