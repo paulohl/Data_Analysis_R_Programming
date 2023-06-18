@@ -138,7 +138,8 @@ When you run the function, R returns a tibble of the sheet.
 
 -   If you want to learn how to use readr functions to work with more complex files, check out the ​[“Data Import” hapter in R for Data Science](https://r4ds.had.co.nz/data-import.html)​. It explores some of the common issues you might encounter when reading files, and how to use readr to manage those issues.
 -   The [readx](https://readxl.tidyverse.org/)​ entry in the tidyverse documentation gives a good overview of the basic functions in readxl, provides a detailed explanation of how the package operates and the coding concepts behind them, and offers links to other useful resources.
--   The R “datasets” package contains lots of useful preloaded datasets.​ Check out the list of datasets on the ​
+-   The R “datasets” package contains lots of useful preloaded datasets.​ Check out the list of datasets on the ​[R Datasets](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) for a list. The list includes links to detailed descriptions of each dataset.
 
 
-<https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[R](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html> <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[Datasets](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html> <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/
+
+
