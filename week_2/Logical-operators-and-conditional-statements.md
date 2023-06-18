@@ -32,7 +32,7 @@ Let’s check out an example of how you might use logical operators to analyze d
 
 The data frame has six columns: Ozone (the ozone measurement), Solar.R (the solar measurement), Wind (the wind measurement), Temp (the temperature in Fahrenheit), and the Month and Day of these measurements (each row represents a speci c month and day combination).
 
-![](media/c24f25704dbc594b736b1b1a91151788.jpg)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/pasted-image-0.png)
 
 Let’s go through how the AND, OR, and NOT operators might be helpful in this situation.
 
@@ -44,7 +44,7 @@ In R, you can express this logical statement as Solar.R \> 150 & Wind \> 10.
 
 Only the rows where *both* of these conditions are true ful ll the criteria:
 
-![](media/ab02c42488cb315ef8805a7e8326cf44.jpg)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/unnamed.png)
 
 ## OR example
 
@@ -54,7 +54,7 @@ In R, you can express this logical statement as Solar.R \> 150 \| Wind \> 10.
 
 All the rows where *either* of these conditions are true ful ll the criteria:
 
-![](media/a2be86d1aef9067ce5b80cfd20d51e8b.jpg)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/unnamed-1-.png)
 
 ## NOT example
 
@@ -62,7 +62,7 @@ Now, imagine you just want to focus on the weather measurements for days that ar
 
 In R, you can express this logical statement as Day != 1. The rows where this condition is true ful ll the criteria:
 
-![](media/c54557d6ad3af36d43dbf18b777ddcd5.jpg)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/unnamed-2-.png)
 
 Finally, imagine you want to focus on scenarios that are not extremely sunny and not extremely windy, based on your previous de nitions of extremely sunny and extremely windy. In other words, the following statement should *not* be true: either a Solar measurement greater than 150 *or* a Wind measurement greater than 10.
 
@@ -70,7 +70,7 @@ Notice that this statement is the opposite of the OR statement used above. To ex
 
 In this case, only one row ful lls the criteria:
 
-![](media/073c609be99cc1839d70f415cefaca3b.jpg)
+![alt tex](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/pasted-image-0-1-.png)
 
 # Conditional statements
 
@@ -80,107 +80,110 @@ Let’s discuss how to create conditional statements in R using three related st
 
 -   **if()**
 -   **else()**
+-   **else if()**
 
-## ● else if() if statement
+ ### if statement
 
 The **if** statement sets a condition, and if the condition evaluates to TRUE, the R code associated with the if statement is executed.
 
 In R, you place the code for the condition inside the parentheses of the if statement. The code that has to be executed if the condition is TRUE follows in curly braces (“expr”). Note that, in this case, the second curly brace is placed on its own line of code and identi es the end of the code that you want to execute.
-
+```r
 if (condition) {
-
 expr
-
 }
+```
+
 
 For example, let’s create a variable “x” equal to 4.
-
+```r
 x \<- 4
-
+```
 Next, let’s create a conditional statement: if x is greater than 0, then R will print out the string “x is a positive number.”
-
+```r
 if (x \> 0) {
-
-print("x is a positive number")
-
+   print("x is a positive number")
 }
-
+```
 Since x = 4, the condition is true (4 \> 0). Therefore, when you run the code, R prints out the string “x is a positive number.”
-
+```r
 [1] "x is a positive number"
+```
+But if you change x to a negative number, like -4, then the condition will be FALSE (-4 \> 0). If you run the code, R will not execute the print statement. Instead, a blank line will appear as the result. 
 
-But if you change x to a negative number, like -4, then the condition will be FALSE (-4 \> 0). If you run the code, R will not execute the print statement. Instead, a blank line will appear as the result. else statement
+### else statement
 
 The **else** statement is used in combination with an **if** statement. This is how the code is structured in R:
-
+```r
 if (condition) {
-
-expr1
-
-} else { expr2
-
+  expr1
+} else { 
+  expr2
 }
-
+```
 The code associated with the else statement gets executed whenever the condition of the if statement is *not* TRUE. In other words, if the condition is TRUE, then R will execute the code in the if statement (“expr1”); if the condition is *not* TRUE, then R will execute the code in the else statement (“expr2”).
 
 Let’s try an example. First, create a variable “x” equal to 7.
-
+```r
 x \<- 7
-
+```
 Next, let’s set up the following conditions:
 
 -   If x is greater than 0, R will print “x is a positive number.”
 -   If x is less than or equal to 0, R will print “x is either a negative number or zero.”
 
 In our code, the rst condition (x \> 0) will be part of the if statement. The second condition of x less than or equal to 0 is implied in the else statement. If x \> 0, then R will print “x is a positive number.” Otherwise, R will print “x is either a negative number or zero.”
-
-x \<- 7 if (x \> 0) {
-
-print("x is a positive number")
-
-} else { print ("x is either a negative number or zero")
-
+```r
+x \<- 7 
+if (x \> 0) {
+   print("x is a positive number")
+} else { 
+   print ("x is either a negative number or zero")
 }
+```
+
 
 Since 7 is greater than 0, the condition of the if statement is true. So, when you run the code, R prints out “x is a positive number.”
-
+```r
 [1] "x is a positive number"
+```
+
 
 But if you make x equal to -7, the condition of the if statement is *not* true (-7 is not greater than 0). Therefore, R will execute the code in the else statement. When you run the code, R prints out “x is either a positive number or zero.”
-
-x \<- -7 if (x \> 0) {
-
-print("x is a positive number")
-
-} else { print ("x is either a negative number or zero")
-
+```r
+x \<- -7 
+if (x \> 0) {
+   print("x is a positive number")
+} else { 
+   print ("x is either a negative number or zero")
 }
-
 [1] "x is either a negative number or zero"
+```
+
 
 ## else if statement
 
 In some cases, you might want to customize your conditional statement even further by adding the **else** **if** statement. The else if statement comes in between the if statement and the else statement.
 
 This is the code structure:
-
+```r
 if (condition1) {
-
-expr1
-
-} else if (condition2) { expr2
-
-} else { expr3
-
+   expr1
+} else if (condition2) { 
+   expr2
+} else { 
+   expr3
 }
+```
+
 
 If the if condition (“condition1”) is met, then R executes the code in the rst expression (“expr1”). If the if condition is not met, and the else if condition (“condition2”) is met, then R executes the code in the second expression (“expr2”). If neither of the two conditions are met, R executes the code in the third expression (“expr3”).
 
 In our previous example, using only the if and else statements, R can only print “x is either a negative number or zero” if x equals 0 or x is less than zero. Imagine you want R to print the string “x is zero” if x equals 0. You need to add another condition using the else if statement.
 
 Let’s try an example. First, create a variable “x” equal to negative 1 (“-1”).
-
+```r
 x \<- -1
+```
 
 Now, you want to set up the following conditions:
 
@@ -189,20 +192,23 @@ Now, you want to set up the following conditions:
 -   Otherwise, print “x is a positive number.”
 
 In our code, the rst condition will be part of the if statement, the second condition will be part of the else if statement, and the third condition will be part of the else statement. If x \< 0, then R will print “x is a positive number.” If x = 0, then R will print “x is zero.” Otherwise, R will print “x is a positive number.”
-
-x \<- -1 if (x \< 0) {
-
-print("x is a negative number")
-
-} else if (x == 0) { print("x is zero")
-
-} else { print("x is a positive number")
-
+```r
+x \<- -1 
+if (x \< 0) {
+   print("x is a negative number")
+} else if (x == 0) { 
+   print("x is zero")
+} else { 
+   print("x is a positive number")
 }
+```
+
 
 Since -1 is less than 0, the condition for the if statement evaluates to TRUE, and R prints “x is a negative number.”
-
+```r
 [1] "x is a negative number"
+```
+
 
 If you make x equal to 0, R will rst check the if condition (x \< 0), and determine that it is FALSE. Then, R will evaluate the else if condition. This condition, x==0, is TRUE. So, in this case, R prints “x is zero.”
 
@@ -212,4 +218,9 @@ As soon as R discovers a condition that evaluates to TRUE, R executes the corres
 
 # Resources
 
-To learn more about logical operators and conditional statements, check out the tutorial on <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[“Conditionals](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[and](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[Control](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[Flow](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[in](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[R”](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[on](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[the](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) <https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r>[DataCamp](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) website. DataCamp is a popular resource for people learning about computer programming. The tutorial is lled with useful examples of coding applications for logical operators and conditional statements (and relational operators), and o ers a helpful overview of each topic and the connections between them.
+To learn more about logical operators and conditional statements, check out the tutorial on [“Conditionals and Control Flow in R” on the DataCamp](https://www.datacamp.com/community/tutorials/conditionals-and-control-flow-in-r) website. DataCamp is a popular resource for people learning about computer programming. The tutorial is lled with useful examples of coding applications for logical operators and conditional statements (and relational operators), and o ers a helpful overview of each topic and the connections between them.     
+
+
+
+
+
