@@ -4,7 +4,7 @@ In this reading, you will learn the basics of importing data into R. ​ It come
 
 # The data() function
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XbxlyImrQgu8ZciJq0ILuA_c3ff7fa1744d497e9267078d16058e2c_Screen-Shot-2021-02-11-at-1.41.31-PM.png?expiry=1687046400000&hmac=smMhQj4S4Pl1hYOaPo-3wEd3ISvL_Vymg7rDIuV-EoA)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-15.png)
 
 The default installation of R comes with a number of preloaded datasets that you can practice with. This is a great way to develop your R skills and learn about some important data analysis functions. Plus, many online resources and tutorials use these sample datasets to teach coding concepts in R.
 
@@ -14,7 +14,7 @@ data()
 
 This includes the list of preloaded datasets from the “datasets” package.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PhGaBTlcTqORmgU5XP6jSg_ebb5d20662444ab2bca76352ee5a256e_Screen-Shot-2021-01-22-at-11.39.53-AM.png?expiry=1687046400000&hmac=6MPjP9oEU9xWjIB8hMtud947HttElhnRIVvIoM-4UvI)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-16.png)
 
 If you want to load a specific dataset, just enter its name in the parentheses of the ​ **data() ​** function. For example, let’s load the
 
@@ -26,7 +26,7 @@ When you run the function, R will load the dataset. The dataset will also appear
 
 In this image, “mtcars” appears in the fifth row of the pane. R tells us that it contains 32 observations and 11 variables.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/7R_zhy6aSKKf84cumgiiOQ_6fbbeda64ee1472691965bc9bb309cee_Screen-Shot-2021-01-22-at-12.27.39-PM.png?expiry=1687046400000&hmac=SxV4jzRxkolpARKnMHt9wE5tX4BUsa9s5b8aGTXUl0k)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-17.png)
 
 Now that the dataset is loaded, you can get a preview of it in the R console pane. Just type its name...
 
@@ -34,12 +34,12 @@ mtcars
 
 ...and then press ctrl (or cmnd) and enter.    
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yh5xum5tSnKecbpubbpyxg_d7e1505d50fd4d73aa0ef186cd2d56d5_Screen-Shot-2021-03-15-at-3.36.50-PM.png?expiry=1687046400000&hmac=Nf1Z2BWfumYALiTpj60_LU7WOkvUhPyd67yacwsdC6s)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-18.png)
 
 
 You can also display the dataset by clicking directly on the name of the dataset in the environment pane. So, if you click on **mtcars** in the environment pane, R automatically runs the View() function and displays the dataset in the RStudio data viewer.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/32SAqnVYSw-kgKp1WJsPeg_a22883468a134223b74b1f39c5f61655_Screen-Shot-2021-01-22-at-12.10.49-PM.png?expiry=1687046400000&hmac=E7GaXGbsPFRe2PBKh4r2fHvOZqc0oYuwCvIDwJhQMIc)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-19.png)
 
 Try experimenting with other datasets in the list if you want some more practice.
 
@@ -92,11 +92,11 @@ read_csv(readr_example("mtcars.csv"))
 
 When you run the function, R prints out a column specification that gives the name and type of each column.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CMuq5sbuRZmLqubG7nWZ_g_44b244d4cac447e191fc0d59b94d205d_Screen-Shot-2021-03-15-at-3.42.43-PM.png?expiry=1687046400000&hmac=CTn3hcYySRDt8ba7ZRzoIPQPmDUOblFv5NGEbDr2oYc)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-20.png)
 
 R also prints a tibble.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PgvbBFMSRGCL2wRTEtRgsA_1d5362c17f2249dab6a936e09520d84a_Screen-Shot-2021-03-15-at-3.38.20-PM.png?expiry=1687046400000&hmac=Vm5C9vGDKliJ5g8SLCBJdW_Yrg4oqX99FPAwP17AjuM)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-21.png)
 
 # readxl
 
@@ -114,13 +114,13 @@ You can use the ​ **read_excel()​** function to read a spreadsheet file just
 
 read_excel(readxl_example("type-me.xlsx"))
 
-You can use the ​ [excel_sheets()](https://readxl.tidyverse.org/reference/excel_sheets.html)​ <https://readxl.tidyverse.org/reference/excel_sheets.html>function to list the names of the individual sheets.
+You can use the ​ [excel_sheets()](https://readxl.tidyverse.org/reference/excel_sheets.html)​ function to list the names of the individual sheets.
 
 ​excel_sheets(readxl_example("type-me.xlsx"))
 
 [1] "logical_coercion" "numeric_coercion" "date_coercion" "text_coercion"
 
-You can use the ​ [excel_sheets()](https://readxl.tidyverse.org/reference/excel_sheets.html)​ <https://readxl.tidyverse.org/reference/excel_sheets.html>function to list the names of the individual sheets.
+You can use the ​ [excel_sheets()](https://readxl.tidyverse.org/reference/excel_sheets.html)​ function to list the names of the individual sheets.
 
 ​excel_sheets(readxl_example("type-me.xlsx"))
 
@@ -132,10 +132,13 @@ read_excel(readxl_example("type-me.xlsx"), sheet = "numeric_coercion")
 
 When you run the function, R returns a tibble of the sheet.
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zqCV7mPlQl-gle5j5ZJfEg_ecec2bacbde34a2caa93c8518c8f95a4_Screen-Shot-2021-03-15-at-3.40.40-PM.png?expiry=1687046400000&hmac=aPcxQazCnBRwEvcL_J89eYB0q_HF1k1O0Af-QWo_Nuc)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-21.png)
 
 ## Resources
 
--   If you want to learn how to use readr functions to work with more complex files, check out the ​[“Data](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html>[Import”](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html>[chapter](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html>[in](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html> <https://r4ds.had.co.nz/data-import.html>[R](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html> <https://r4ds.had.co.nz/data-import.html>[for](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html>[Data](https://r4ds.had.co.nz/data-import.html) <https://r4ds.had.co.nz/data-import.html>[Science](https://r4ds.had.co.nz/data-import.html)​. It explores some of the common issues you might encounter when reading files, and how to use readr to manage those issues.
--   The [readx](https://readxl.tidyverse.org/)​ [l](https://readxl.tidyverse.org/)​ <https://readxl.tidyverse.org/> <https://readxl.tidyverse.org/>entry in the tidyverse documentation gives a good overview of the basic functions in readxl, provides a detailed explanation of how the package operates and the coding concepts behind them, and offers links to other useful resources.
--   The R “datasets” package contains lots of useful preloaded datasets.​ Check out the list of datasets on the ​ <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[R](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html> <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[Datasets](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html> <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[Package](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html)​ website. The list includes links to detailed descriptions of each dataset.
+-   If you want to learn how to use readr functions to work with more complex files, check out the ​[“Data Import” hapter in R for Data Science](https://r4ds.had.co.nz/data-import.html)​. It explores some of the common issues you might encounter when reading files, and how to use readr to manage those issues.
+-   The [readx](https://readxl.tidyverse.org/)​ entry in the tidyverse documentation gives a good overview of the basic functions in readxl, provides a detailed explanation of how the package operates and the coding concepts behind them, and offers links to other useful resources.
+-   The R “datasets” package contains lots of useful preloaded datasets.​ Check out the list of datasets on the ​
+
+
+<https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[R](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html> <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html>[Datasets](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html> <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/
