@@ -42,11 +42,8 @@ Which summary functions can you use to preview data frames in R? Select all that
 
 ( ) str()
 
+(●) mutate()
 
-( ) mutate()
+(●) glimpse()
 
-
-( ) glimpse()
-
-
-( ) head()
+(●) head()
