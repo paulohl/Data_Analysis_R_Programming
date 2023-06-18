@@ -13,7 +13,7 @@ There are two main reasons for using a consistent coding style:
 
 Let’s go over a few of the most widely accepted stylistic conventions for writing R code.
 
-Naming
+**Naming**
 
 |               | **Guidance**                                                                                                                                                                                                     | **Examples**  **of**  **best**  **practice**  | **Examples**  **to**  **avoid**  |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|----------------------------------|
@@ -22,7 +22,7 @@ Naming
 | Object names  | Variable and function names should be lowercase. Use an underscore _ to separate words within a name. Try to create names that are clear, concise, and meaningful.  Generally, variable names should be nouns.  | `# Good day_one`                               | `# Bad DayOne`                    |
 |               | Function names should be verbs.                                                                                                                                                                                  | `# Good add ()`                                | `# Bad addition ()`               |
 
-Syntax
+**Syntax**
 
 |          | **Guidance**                                                              | **Examples**  **of**  **best**  **practice**  | **Examples**  **to**  **avoid**  |
 |----------|---------------------------------------------------------------------------|-----------------------------------------------|----------------------------------|
@@ -38,13 +38,13 @@ Syntax
 |               | Note that many style guides mention to never let a line go past 80 (or 120) characters. If you’re using RStudio, there’s a helpful setting for this. Go to Tools -> Global Options -> Code -> Display, and select the option Show margin, and set margin column to 80 (or 120).  |                                                                                                                                |                                                                                                                                |
 | Assignment    | Use <- , not = , for assignment.                                                                                                                                                                                                                                                   | `# Good z <- 4`                                                                                                                | `# Bad  Z = 4`                                                                                                                  |
 
-Organization
+**Organization**
 
 |             | **Guidance**                                                                         | **Examples**  **of**  **best**  **practice**  | **Examples**  **to**  **avoid**  |
 |-------------|--------------------------------------------------------------------------------------|-----------------------------------------------|----------------------------------|
 | Commenting  | Entire commented lines should begin with the comment symbol and a single space: #.  | `# Good  # Load data`                         | `# Bad Loaddata`                  |
 
-Resources
+### Resources
 
 -   Check out this [tidyverse style guide](https://style.tidyverse.org/files.html#names) to get a more comprehensive breakdown of the most important stylistic conventions for writing R code (and working with the tidyverse).
 -   The styler package is an automatic styling tool that follows the tidyverse formatting rules. Check out the [styler](https://styler.r-lib.org/index.html) webpage to learn more about the basic features of this tool.
