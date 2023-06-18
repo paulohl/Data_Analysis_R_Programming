@@ -6,7 +6,7 @@ frames, and how to create them in R.
 
 ### Tibbles     
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IEEW4T9-Q5GBFuE_fvORwA_195bfa1402b14ac8b570fbb2d28d2e95_Screen-Shot-2021-04-21-at-10.17.59-AM.png?expiry=1686960000000&hmac=Vn5Ok_3Ui9Q0SbtKaa_ZV5cgpcBLT_bGuQLl6cvflLk)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-12.png)    
 
 
 
@@ -37,7 +37,7 @@ View(diamonds)
 
 The dataset has 10 columns and thousands of rows. This image displays part of the data frame:    
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vRf33YfiS_yX992H4qv8Mw_6a91eeac27a544c684de8f57d906764e_Screenshot-2020-11-02-at-9.43.48-AM-1-.png?expiry=1686960000000&hmac=UKIPo663a8owT5loXJDvNJ_d-4WzxPQrJDOv0rjnp-E)   
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-13.png)   
 
 
 Now let’s create a tibble from the same dataset. You can create a tibble from existing data with the **as_tibble()** function. Indicate what data you’d like to use in the parentheses 
@@ -52,7 +52,7 @@ as_tibble(diamonds)
 
 When you run the function, you get a tibble of the diamonds dataset. 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ykUrci7HS4KFK3Iux9uCpg_f0d7cc49563347b49d4dd322b80ae11a_Screen-Shot-2021-03-15-at-1.58.27-PM.png?expiry=1686960000000&hmac=HeA34Vx_DHFrR_9OKOqz9BblICpMFUeJlmmLbOVMCKo)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-14.png)    
 
 
 While RStudio’s built-in data frame tool returns thousands of rows in the diamonds dataset, the tibble only returns the first 10 rows in a neatly organized table. That makes it easier 
