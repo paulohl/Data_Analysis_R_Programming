@@ -8,7 +8,7 @@ their data, and learn how they used R to address it.
 ## Addressing biased data with R    
 
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/9S2LIPiKTGatiyD4iqxmIw_6802a87a5b0f4781b6791b5b8d4d5e4b_Screen-Shot-2021-02-16-at-9.44.46-AM.png?expiry=1687046400000&hmac=ySaGM3otGVfsyjzoBvxp5BtMZ4h4oVig2smUlYNrxas)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-25.png)    
 
 
 This scenario was shared by a quantitative analyst who collects data from people all over the world. They explain how they discovered bias in their data, and how they used R to 
