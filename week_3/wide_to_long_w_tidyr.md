@@ -22,7 +22,7 @@ To review what you already learned about the difference, **long data** has all t
 There are compelling reasons to use both formats. But as an analyst, it is important to know how to tidy data when you need to. In R, you may have a data frame in a wide format that 
 has several variables and conditions for each variable. It might feel a bit messy. 
 
-That’s where pivot_longer()comes in. As part of the tidyr package, you can use this R function to lengthen the data in a data frame by increasing the number of rows and decreasing 
+That’s where pivot_longer() comes in. As part of the tidyr package, you can use this R function to lengthen the data in a data frame by increasing the number of rows and decreasing 
 the number of columns. Similarly, if you want to convert your data to have more columns and fewer rows, you would use the pivot_wider() function.
 
 ## Additional resources    
