@@ -3,21 +3,21 @@
 
 When organizing or tidying your data using R, you might need to convert wide data to long data or long to wide. Recall that this is what data looks like in a wide format spreadsheet:
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/m9JdRN6aTQCSXUTemq0AVA_4909c4cc120d496c99895460c2ca27f4_Screenshot-2021-01-27-at-2.26.11-PM.png?expiry=1687046400000&hmac=llYZ7wua3J5-fLdewABLh4FxQ-v1x7gjPkkf4dbYC2w) 
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-16.png) 
 
 
 **Wide data** has observations across several columns. Each column contains data from a different condition of the variable. In this example the columns are different years. 
 
 Now check out the same data in a long format:
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/AKr0lJTgSaCq9JSU4CmgtA_7608bba87aa04ab4b1695c3b3a22325a_Screenshot-2021-01-27-at-2.29.39-PM.png?expiry=1687046400000&hmac=9rxM_DIOa___nDsoIURthK9J6vgixpkuyU9BOMDoIkw)    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-17.png)    
 
 
 To review what you already learned about the difference, **long data** has all the observations in a single column, and the variable conditions are placed into separate rows. 
 
 ## The pivot_longer and pivot_wider functions    
 
-![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/v4UKiGjHQtqFCohox5LaVw_2b7b38924ef349e184ea326b58cba225_Screen-Shot-2021-03-02-at-9.35.23-AM.png?expiry=1687046400000&hmac=ZtERdq1KMMGZd5ahriuuG-yKmXre-vtK4MkflL0NwXA)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-24.png)
 
 There are compelling reasons to use both formats. But as an analyst, it is important to know how to tidy data when you need to. In R, you may have a data frame in a wide format that 
 has several variables and conditions for each variable. It might feel a bit messy. 
