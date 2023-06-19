@@ -15,16 +15,23 @@ career as a data analyst.
 ### Working in RStudio Cloud
 ____________________________
 To start, log into your RStudio Cloud account and open the project with 
-this link
-. Navigate to the file explorer in the bottom right and click on the following: Course 7 -> Week 4 -> Lesson2_GGPlot.Rmd.
+[this link](https://rstudio.cloud/project/2138069)
+. Navigate to the file explorer in the bottom right and click on the following: **Course 7 -> Week 4 -> Lesson2_GGPlot.Rmd**.
 
 The .csv file you will need, hotel_bookings.csv, is also located in this folder.
 
 If you have trouble finding the correct activity, check out this 
-step-by-step guide
+[step-by-step guide](https://cursive.io/shared/28dc296d9-5515-41a9-9bf6-84369bd247e3)
  on how to navigate in RStudio Cloud. Make sure to select the correct R markdown (Rmd) file. The other Rmd files will be used in different activities.
 
 If you are using RStudio Desktop, you can download the Rmd file and the data for this activity directly here:
+
+> Lesson2_GGPlot
+>
+> RMD File
+
+
+
 
 You can also find the Rmd file with the solutions for this activity here:
 
