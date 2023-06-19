@@ -1,4 +1,4 @@
-### Common problems when visualizing in R    
+# Common problems when visualizing in R    
 
 
 *You can save this reading for future reference. Feel free to download a PDF version of this reading below:*
@@ -16,7 +16,7 @@ When working with R code in ggplot2, a lot of the most common coding errors invo
 
 Let’s explore a few of the most common coding errors you might encounter in ggplot2.
 
-# Case sensitivity     
+### Case sensitivity     
 
 
 R code is case sensitive. If you accidentally capitalize the first letter in a certain function, it might affect your code. Here is an example: 
@@ -39,7 +39,7 @@ glimpse(penguins)
 ```
 
 
-# Balancing parentheses and quotation marks     
+### Balancing parentheses and quotation marks     
 
 
 Another common R coding error involves parentheses and quotation marks. In R, you need to make sure that every opening parenthesis in your function has a closing parenthesis, and every opening quotation mark has a closing quotation mark. For example, if you run the following code, nothing happens. R does not create the plot. That is because the second line of code is missing two closing parentheses: 
@@ -65,56 +65,72 @@ ggplot(data = penguins) +
 ```
 
 
-Using the plus sign to add layers 
+### Using the plus sign to add layers    
+
+
 In ggplot2, you need to add a plus sign (“+”) to your code when you add a new layer to your plot. Putting the plus sign in the wrong place is a common mistake. The plus sign should always be placed at the end of a line of code, and not at the beginning of a line.
 
 Here’s an example of code that includes incorrect placement of the plus sign:
-
+```r
 ggplot(data = penguins) 
 
   + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 In this case, R’s error message identifies the problem, and prompts you to correct it: 
-
+```r
 Error: Cannot use `+.gg()` with a single argument. Did you accidentally put + on a new line? 
+```
+
 
 Here is the correct code: 
-
+```r
 ggplot(data = penguins) + 
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 You also might accidentally use a pipe instead of a plus sign to add a new layer to your plot, like this:
-
+```r
 ggplot(data = penguins)%>%   
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 You then get the following error message: 
-
+```r
 Error: `data` must be a data frame, or other object coercible by `fortify()`, not an S3 object with class gg/ggplot
+```
+
 
 Here is the correct code: 
-
+```r
 ggplot(data = penguins) + 
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 Keeping these issues in mind and paying attention to details when you write code will help you reduce errors and save time, so you can stay focused on your analysis. 
 
-Help resources
+## Help resources
 Everyone makes mistakes when writing code–it is just part of the learning process. Fortunately, there are lots of helpful resources available in RStudio and online. 
 
-R documentation
-R has built-in documentation for all functions and packages. To learn more about any R function, just run the code ?function_name. For example, if you want to learn more about the geom_bar function, type:
+# R documentation
+R has built-in documentation for all functions and packages. To learn more about any R function, just run the code **?function_name**. For example, if you want to learn more about the geom_bar function, type:
 
 ?geom_bar
 
 When you run the code, an entry on “geom_bar” appears in the Help viewer in the lower-right pane of your RStudio workspace. The entry begins with a “Description” section that discusses bar charts: 
 
-Image of entry on “Bar charts” in RStudio Help viewer.
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-27.png)    
+
+
 The 
-RDocumentation website
+[RDocumentation website](https://www.rdocumentation.org/)
  contains much of the same content in a slightly different format, with additional examples and links.
 
 ggplot2 documentation
