@@ -1,18 +1,29 @@
-Smoothing
-In this reading, you will learn about smoothing in ggplot2 and how it can be used to make your data visualizations in R clearer and easier to follow. Sometimes it can be hard to understand trends in your data from scatter plots alone. Smoothing enables the detection of a data trend even when you can't easily notice a trend from the plotted data points. Ggplot2’s smoothing functionality is helpful because it adds a smoothing line as another layer to a plot; the smoothing line helps the data to make sense to a casual observer.
+# Smoothing    
 
-Example code
 
+In this reading, you will learn about smoothing in ggplot2 and how it can be used to make your data visualizations in R clearer and easier to follow. Sometimes it can be hard to understand trends in your data from scatter plots alone. **Smoothing** enables the detection of a data trend even when you can't easily notice a trend from the plotted data points. Ggplot2’s smoothing functionality is helpful because it adds a smoothing line as another layer to a plot; the **smoothing** line helps the data to make sense to a casual observer.
+
+|  Example code  |
+|----------------|
+
+```r
 ggplot(data, aes(x=distance, 
 y= dep_delay)) +
     geom_point() +
     geom_smooth()
+```
 
 The example code creates a plot with a trend line similar to the blue line below.
 
-Screenshot of a scatterplot. There are points on the plot with a blue smoothing line indicating the upward trend of the poi
-Two types of smoothing
-Image of person painting over a rough, textured wall
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/beac48.png)    
+
+
+## Two types of smoothing    
+
+
+!alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-29.png)    
+
+
 Type of smoothing
 
 Description
