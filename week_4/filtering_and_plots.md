@@ -1,8 +1,14 @@
-Filtering and plots
-By this point you have likely downloaded at least a few packages into your R library. The tools in some of these packages can actually be combined and used together to become even more useful. This reading will share a few resources that will teach you how to use the filter function from dplyr to make the plots you create with ggplot2 easier to read. 
+# Filtering and plots    
 
-Image of a fisherman on a boat using a large fishing net to capture letters and numbers in the water
-Example of filtering data for plotting
+
+By this point you have likely downloaded at least a few packages into your R library. The tools in some of these packages can actually be combined and used together to become even more useful. This reading will share a few resources that will teach you how to use the filter function from **dplyr** to make the plots you create with **ggplot2** easier to read. 
+
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-30.png)    
+
+
+## Example of filtering data for plotting    
+
+
 Filtering your data before you plot it allows you to focus on specific subsets of your data and gain more targeted insights. To do this, just include the dplyr filter() function in your ggplot syntax. 
 
 Example code
@@ -12,7 +18,9 @@ data %>%
     ggplot(aes(x = weight, y = variable2, colour = variable1)) +  
     geom_point(alpha = 0.3,  position = position_jitter()) + stat_smooth(method = "lm")
 
-Additional resources
+### Additional resources    
+
+
 To learn more details about ggplot2 and filtering with dplyr, check out these resources:
 
 Putting it all together: (dplyr+ggplot)
