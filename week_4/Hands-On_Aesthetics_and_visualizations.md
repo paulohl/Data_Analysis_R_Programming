@@ -39,21 +39,21 @@ You can also find the Rmd file with the solutions for this activity here:
 
 Carefully read the instructions in the comments of the Rmd file and complete each step. Some steps may be as simple as running pre-written code, while others may require you to write your own functions. After you finish the steps in the Rmd file, return here to confirm that your work is complete.
 
-Confirmation
-
+### Confirmation
+_________________
 Based on the bar chart you created in Step 4, which distribution type has the most number of bookings?
 
-1 / 1 point
+(●) TA/TO
 
-TA/TO
+( ) Corporate
 
+( ) GDS
 
-Corporate
-
-
-GDS
+( ) Direct   
 
 
-Direct
 
-Correct
+
+
+
+
