@@ -119,7 +119,7 @@ Keeping these issues in mind and paying attention to details when you write code
 ## Help resources
 Everyone makes mistakes when writing code–it is just part of the learning process. Fortunately, there are lots of helpful resources available in RStudio and online. 
 
-# R documentation
+### R documentation
 R has built-in documentation for all functions and packages. To learn more about any R function, just run the code **?function_name**. For example, if you want to learn more about the geom_bar function, type:
 
 ?geom_bar
@@ -133,21 +133,25 @@ The
 [RDocumentation website](https://www.rdocumentation.org/)
  contains much of the same content in a slightly different format, with additional examples and links.
 
-ggplot2 documentation
+### ggplot2 documentation
 The 
-ggplot2 page
+[ggplot2 page](https://ggplot2.tidyverse.org/)
 , which is part of the official tidyverse documentation, is a great resource for all things related to ggplot2. It includes entries on key topics, useful examples of code, and links to other helpful resources. 
 
-Online search
+### Online search
 Doing an online search for the error message you are encountering (and including “R” and the function or package name in your search terms) is another option. There is a good chance someone else has already encountered the same error and posted about it online. 
 
-The R community
+### The R community
 If the other resources don’t help, you can try reaching out to the R community online. There are lots of useful online forums and websites where people ask for and receive help, including:
 
-R for Data Science Online Learning Community
+* [R for Data Science Online Learning Community](https://www.rfordatasci.com/)
 
-RStudio Community
+* [RStudio Community](https://community.rstudio.com/)
 
-Stackoverflow
+* [Stackoverflow](http://stackoverflow.com/)
 
-Twitter (#rstats)
+* [Twitter (#rstats)](https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click)    
+
+
+
+
