@@ -1,45 +1,69 @@
-Common problems when visualizing in R
-You can save this reading for future reference. Feel free to download a PDF version of this reading below:
+### Common problems when visualizing in R    
 
-Coding errors are an inevitable part of writing code—especially when you are first beginning to learn a new programming language. In this reading, you will learn how to recognize common coding errors when creating visualizations using ggplot2. You will also find links to some resources that you can use to help address any coding problems you might encounter moving forward. 
 
-Common coding errors in ggplot2
+*You can save this reading for future reference. Feel free to download a PDF version of this reading below:*
+
+>  [Common problems encountered when visualizing in R.PDF](https://d3c33hcgiwev3.cloudfront.net/pALIn_4vSECCyJ_-L4hAJg_3c83255ab5004b1a99957907331217b0_Common-problems-encountered-when-visualizing-in-R.pdf?Expires=1687305600&Signature=dl~NY99xOGzOonimaXpnltWfJvlj8Nf6h00LtYE6ABOH5q8sgStn4nYWGwgsO3kisKH1VTwr7pG0Z0wSvlYENkp8gTjNS6qtYteo8qaLv2SoDxJ7pGHgKppwqHJVklE9mCuWfmDmesrdV5i7lZ8k7IXBW-YnKpFIKLrzwOKyA20_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+> 
+>  PDF File
+
+Coding errors are an inevitable part of writing code—especially when you are first beginning to learn a new programming language. In this reading, you will learn how to recognize common coding errors when creating visualizations using **ggplot2**. You will also find links to some resources that you can use to help address any coding problems you might encounter moving forward. 
+
+## Common coding errors in ggplot2    
+
+
 When working with R code in ggplot2, a lot of the most common coding errors involve issues with syntax, like misplaced characters. That is why paying attention to details is such an important part of writing code. When there is an error in your code that R is able to detect, it will generate an error message. Error messages can help point you in the right direction, but they won’t always help you figure out the precise problem.
 
 Let’s explore a few of the most common coding errors you might encounter in ggplot2.
 
-Case sensitivity 
-R code is case sensitive. If you accidentally capitalize the first letter in a certain function, it might affect your code. Here is an example: 
+# Case sensitivity     
 
+
+R code is case sensitive. If you accidentally capitalize the first letter in a certain function, it might affect your code. Here is an example: 
+```r
 Glimpse(penguins)
+```
+
 
 The error message lets you know that R cannot find a function named “Glimpse”:
-
+```r
 Error in Glimpse(penguins) : could not find function "Glimpse"
+```
+
 
 But you know that the function glimpse (lowercase “g”) does exist. Notice that the error message doesn’t explain exactly what is wrong but does point you in a general direction. 
 
 Based on that, you can figure out that this is the correct code: 
-
+```r
 glimpse(penguins) 
+```
 
-Balancing parentheses and quotation marks 
+
+# Balancing parentheses and quotation marks     
+
+
 Another common R coding error involves parentheses and quotation marks. In R, you need to make sure that every opening parenthesis in your function has a closing parenthesis, and every opening quotation mark has a closing quotation mark. For example, if you run the following code, nothing happens. R does not create the plot. That is because the second line of code is missing two closing parentheses: 
-
+```r
 ggplot(data = penguins) + 
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g
+```
+
 
 RStudio does alert you to the problem. To the left of the line of code in your RStudio source  editor, you might notice a red circle with a white “X” in the center. If you hover over the circle with your cursor, this message appears: 
 
-Image of code script and an error message in RStudio’s source editor panel
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-26.png)    
+
+
 RStudio lets you know that you have an unmatched opening bracket. So, to correct the code, you know that you need to add a closing bracket to match each opening bracket. 
 
 Here is the correct code: 
-
+```r
 ggplot(data = penguins) + 
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 Using the plus sign to add layers 
 In ggplot2, you need to add a plus sign (“+”) to your code when you add a new layer to your plot. Putting the plus sign in the wrong place is a common mistake. The plus sign should always be placed at the end of a line of code, and not at the beginning of a line.
