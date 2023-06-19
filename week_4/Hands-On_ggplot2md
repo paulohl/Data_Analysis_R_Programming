@@ -1,0 +1,22 @@
+# Hands-On Activity: Visualizing data with ggplot2    
+
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/lightbulb-HandsOn.png)    
+
+### Activity overview
+_____________________
+Earlier in this course, you encountered Practice ggplot2, an R package for data visualization. In this activity, you’ll learn about the basic logic	 
+of data visualization in ggplot2 and how to Practice 	create a plot using R code. 
+
+By the time you complete this activity, you’ll be able to write R functions that create data visualizations. This will enable you to create basic 
+visualizations to demonstrate and share Video: findings with your data and code. 
+
+### The basics of ggplot2
+________________________
+The ggplot2 package lets you make high quality, customizable plots of your data. As a	refresher, ggplot2 is based on the grammar of
+  
+  
+  
+  
+  
+  
+  
