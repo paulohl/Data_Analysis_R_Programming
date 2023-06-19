@@ -46,7 +46,7 @@ Once you decide on your dataset, open RStudio and follow these steps:
 
 The first 10 rows of the data frame should appear like this:
 
-![alt text]()    
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/image22.png)    
 
 
 The penguins dataset contains size measurements for three penguin species (Adelie, Chinstrap, and Gentoo) that live on the Palmer Archipelago in Antarctica. 
@@ -79,14 +79,14 @@ variable “body_mass_g” to the y-axis.
 
 Now go ahead and run the code. When you do, you get the following plot: 
 
-![alt text]()
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/image23.png)
 
 The plot shows a positive relationship between the two variables. In other words, the larger the penguin, the longer the flipper. 
 
-Create your own plot 
-
-### To create your own plot using code, follow these three steps:
+### Create your own plot 
 _________________________________________________________________
+To create your own plot using code, follow these three steps:
+
 1. Start with the ggplot() function and choose a dataset to work with.
 
 2. Add a geom_ function to display your data.
@@ -95,31 +95,27 @@ _________________________________________________________________
 
 Try plotting with different datasets using different geoms and mapping arguments. Coming up in this course, you’ll learn even more about the process of creating a plot. You’ll also get a chance to work with the Penguins dataset to create lots of different plots in ggplot2.
 
-Pro-Tip: You can write the same section of code above using a different syntax with the mapping argument inside the ggplot() call: ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) +  geom_point()
+**Pro-Tip**: You can write the same section of code above using a different syntax with the mapping argument inside the ggplot() call: 
+**ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) +  geom_point()**
 
-The ggplot2 cheat sheet
-
+### The ggplot2 cheat sheet
+___________________________
 This is just the beginning of what you can do with ggplot2. If you want to find out more about ggplot2, RStudio has a useful reference guide called the “Data Visualization with ggplot2 Cheat Sheet.” You can use the Cheat Sheet as a quick reference while you work to learn about the main functions and features of ggplot2. 
 
-Click the link to check it out: 
-Cheat Sheet
+Click the link to check it out: [Cheat Sheet](https://ggplot2.tidyverse.org/)
 
-Confirmation
 
+### Confirmation
+________________
 In this activity, you created a scatterplot to show the relationship between flipper length and body mass in three penguin species. Which part of your code refers to the geometric object used to represent your data? 
 
-1 point
+( ) +
 
-+
+( ) (mapping = aes(x = flipper_length_mm, y = body_mass_g)) 
 
+(●) geom_point()
 
-(mapping = aes(x = flipper_length_mm, y = body_mass_g)) 
-
-
-geom_point()
-
-
-ggplot(data = penguins)
+( ) ggplot(data = penguins)
 
 
   
