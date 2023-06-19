@@ -47,7 +47,7 @@ Carefully read the instructions in the comments of the Rmd file and complete eac
 ________________
 In Step 5 of this activity, you mapped columns to the x and y axes of a scatter plot. What syntax did you use to do this?
 
-( )aes(x = stays_in_weekend_nights, y = children)
+(●) aes(x = stays_in_weekend_nights, y = children)
 
 ( ) aes(x = ‘stays_in_weekend_nights’, y = ‘children’)
 
@@ -55,4 +55,7 @@ In Step 5 of this activity, you mapped columns to the x and y axes of a scatter 
 
 ( ) aes(x = ‘children’, y = ‘stays_in_weekend_nights’)
 
-Coursera Honor Code  Learn more
+
+
+
+
