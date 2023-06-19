@@ -12,7 +12,14 @@ visualizations to demonstrate and share Video: findings with your data and code.
 
 ### The basics of ggplot2
 ________________________
-The ggplot2 package lets you make high quality, customizable plots of your data. As a	refresher, ggplot2 is based on the grammar of
+The ggplot2 package lets you make high quality, customizable plots of your data. As a	refresher, ggplot2 is based on the grammar of graphics, which is a 
+system for describing and building data visualizations. The essential idea behind the grammar of graphics is that you can build any plot from the same 
+basic components, like building blocks.
+
+These building blocks include:
+* A dataset
+* A set of geoms: A geom refers to the geometric object used to represent your data For example you can use points to
+
   
   
   
