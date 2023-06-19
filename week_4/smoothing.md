@@ -36,7 +36,9 @@ The smoothing functionality in ggplot2 helps make data plots more readable, so y
 
 
 
-![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/3d26f5.png)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/3d26f5.png)    
+
+
 
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/6b97f.png)    
