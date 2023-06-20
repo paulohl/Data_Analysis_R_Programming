@@ -141,7 +141,7 @@ Rendering a file also automatically runs the code chunks to show the output. In 
 ______________    
 
 
-1. Suppose you include the header ## Conclusion in your R Markdown Notebook. How can you change this header to make it smaller?
+1. Suppose you include the header **## Conclusion** in your R Markdown Notebook. How can you change this header to make it smaller?
 
 (●) Add another hashtag
 
@@ -152,7 +152,7 @@ ______________
 ( ) Remove the space between the hashtags and the title
 
 > *Correct*
-> To make a header smaller, add more hashtags before the title. For example, ### Conclusion would be smaller than ## Conclusion. Going forward, you can use R Markdown syntax to > format your notebooks. This gives you creative freedom in how you want to present your analysis when you share it with others.
+> To make a header smaller, add more hashtags before the title. For example, **### Conclusion** would be smaller than **## Conclusion**. Going forward, you can use R Markdown syntax to > format your notebooks. This gives you creative freedom in how you want to present your analysis when you share it with others.
 
 2. In this activity, you made your own R Markdown notebook. In the text box below, write 2-3 sentences (40-60 words) in response to each of the following questions:
 
