@@ -7,15 +7,21 @@ This reading will explore the di erent types of output formats you can produce w
 When working in RStudio, you can set the output of a document in R Markdown by changing the YAML header. For example, this code creates an HTML document:
 
 > \---
+> 
 > title: "Demo"
+> 
 > output: html_document
+> 
 > \---
 
 This code creates a PDF document:
 
 >\---
+>
 > title: "Demo"
+>
 > output: pdf_document
+>
 >\---
 
 The **Knit** button in the RStudio source editor renders a file to the first format listed in its output field (HTML is the default). You can render to additional formats by clicking the dropdown menu next to the knit button.
@@ -35,7 +41,7 @@ Along with the default ```html_document``` output, there are a number of other t
 | ```md_document```      | Creates a Markdown document                                                                                                                              |
 | ```github_document```  | Creates a GitHub document. This is a customized version of a Markdown document designed for sharing on GitHub.                                           |
 
-For a detailed guide to creating di erent types of R Markdown documents, check out the [Documents](https://bookdown.org/yihui/rmarkdown/documents.html) <https://bookdown.org/yihui/rmarkdown/documents.html>chapter in *RMarkdown:*  *the*  *De nitive*  *Guide*.
+For a detailed guide to creating di erent types of R Markdown documents, check out the [Documents](https://bookdown.org/yihui/rmarkdown/documents.html) chapter in *RMarkdown:*  *the*  *De nitive*  *Guide*.
 
 ### Notebooks
 
@@ -74,9 +80,13 @@ To learn more, visit the [flexdashboard](https://rmarkdown.rstudio.com/flexdashb
 To call Shiny code from an R Markdown document, add runtime: shiny to the YAML header:
 
 >\---
+>
 > title: "Shiny Web App"
+>
 > output: html_document
+>
 > runtime: shiny
+>
 >\---
 
 To learn more about Shiny and how to use R code to add interactive components to an R Markdown document, check out the [Shiny](https://shiny.rstudio.com/tutorial/) tutorial on the RStudio website.
