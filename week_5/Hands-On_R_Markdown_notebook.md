@@ -18,7 +18,7 @@ R Markdown is a file format for making dynamic documents with R. These documents
 understand what you did in your analysis to reach your conclusions. You can publish a notebook as an html, pdf, or Word file, or in another format like a slideshow.
 
 At any point during this activity, you can consult the 
-[R Markdown Cheat Sheet](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-34.png)
+[R Markdown Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 . This resource is a reference guide for all things R Markdown: from opening a file to publishing a final report of your analysis. 
 
 ### Select and review your analysis
@@ -27,20 +27,22 @@ In this course, you’ve had the chance to practice and save files of your analy
 
 You can use **Open File** in the **File** menu:
 
-![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-35.png)  
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-34.png)  
 
 
 Now, review the file you opened. Examine the data you pulled from and the functions you used to analyze it. 
 
 When you create an R Markdown notebook, you want to be able to share it with others so they can understand your process and conclusions. You may also want to keep it for your own records as a way to keep track of your progress using R for analysis.
 
-Open an Rmd file
-
+** Open an Rmd file
+___________
 Now, you’ll transfer the code from the file you opened to a new R Markdown file so that you can write your own explanation of the steps you took. By doing this, you can create a more complete record of your overall thought process so that others will be able to understand it.
 
-1. Open a new R Markdown (Rmd) file to begin building the basic structure of your notebook. Select File -> New File -> R Markdown.  
+1. Open a new R Markdown (Rmd) file to begin building the basic structure of your notebook. Select **File -> New File -> R Markdown**.  
 
-screenshot of R markdown file. You are prompted to input title, author, and default output format
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-35.png)      
+
+
 2. In the dialog box that opens, add a title for your notebook. Name it something that will help you easily recognize what your analysis is about (e.g., “Penguins Plots”). 
 
 3. Type your name in the Author field. 
