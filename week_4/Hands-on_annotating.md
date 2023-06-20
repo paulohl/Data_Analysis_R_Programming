@@ -51,7 +51,7 @@ The first time you saved an image in Step 5, what dimensions did you put in the 
 ( ) 5x5
 
 
-( ) 7x7
+(●) 7x7
 
 
 ( ) 10x10
