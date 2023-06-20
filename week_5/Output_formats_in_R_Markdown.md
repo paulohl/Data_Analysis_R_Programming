@@ -17,23 +17,23 @@ When working in RStudio, you can set the output of a document in R Markdown by c
 
 For example, the following code creates an HTML document:
 
-> ---
+> \---
 >
 > title: "Demo"
 > 
 > output: html_document
 > 
-> ---
+> \---
 
 And the following code creates a PDF document:
 
-> ---
+> \---
 >
 > title: "Demo"
 >
 > output: pdf_document
 >
-> ---
+> \---
 
 The **Knit** button in the RStudio source editor renders a file to the first format listed in its output field (HTML is the default). You can render a file to additional formats 
 by clicking the dropdown menu next to the knit button.
@@ -111,7 +111,7 @@ To learn more, visit the
 
 To call Shiny code from an R Markdown document, add  runtime: shiny to the YAML header:
 
-> ---
+> \---
 > 
 > title: "Shiny Web App"
 > 
@@ -119,7 +119,7 @@ To call Shiny code from an R Markdown document, add  runtime: shiny to the YAML 
 > 
 > runtime: shiny
 >
-> ---
+> \---
 
 To learn more about Shiny and how to use R code to add interactive components to an R Markdown document, check out the 
 [Shiny](https://shiny.rstudio.com/tutorial/)
