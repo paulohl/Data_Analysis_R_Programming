@@ -31,7 +31,7 @@ If you are using RStudio Desktop, you can download the Rmd file and the data for
 > 
 > RMD File
 
->  [hotel bookings](https://d3c33hcgiwev3.cloudfront.net/GL0bk8O2Sja9G5PDtko2uQ_31e445d7ca64417eb45aeaa08ec90bf1_hotel_bookings.csv?Expires=1687392000&Signature=DAxUPVQEEvNimLGGCCPdHLD6XAzZbcaqc-tjtLrlgZrex~AtgHWzkYsTXlNuCujy58ykBbnTViOVzdiukMdKn2DYm1j-SErZFY-eYWzcTMIpr0z6f23ajIpfhxpkgKZ5vG4WqFwfhAR~vQW0qg6Puo0Wi-hDbOBR1MN8-IhnXSg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)@
+>  [hotel bookings](https://d3c33hcgiwev3.cloudfront.net/GL0bk8O2Sja9G5PDtko2uQ_31e445d7ca64417eb45aeaa08ec90bf1_hotel_bookings.csv?Expires=1687392000&Signature=DAxUPVQEEvNimLGGCCPdHLD6XAzZbcaqc-tjtLrlgZrex~AtgHWzkYsTXlNuCujy58ykBbnTViOVzdiukMdKn2DYm1j-SErZFY-eYWzcTMIpr0z6f23ajIpfhxpkgKZ5vG4WqFwfhAR~vQW0qg6Puo0Wi-hDbOBR1MN8-IhnXSg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 >
 >  CSVFile
 
