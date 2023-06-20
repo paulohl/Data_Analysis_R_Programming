@@ -37,7 +37,7 @@ If you are using RStudio Desktop, you can download the Rmd file and the data for
 
 You can also find the Rmd file with the solutions for this activity here:    
 
-> [Lesson4_Annotations_Solutions]{https://d3c33hcgiwev3.cloudfront.net/vHkzTo-IQYW5M06PiIGFlQ_5e2103c4431642d79b048badb43dfff1_Lesson4_Annotations_Solutions.Rmd?Expires=1687392000&Signature=iWbEYA76W0hhNH1BhTIGc5ry94vHclhfd5tqOasomZSTRK1Q32W4dvyMS2VAA8T6hQTqdWvmgyCegkazl0YRxgZ8VOJr4fGZkuO~c7qYbAbxRYyRwfxdGcQ1qIpEPWidvWxnrdbCFQfBfD2bKzLPDYtMKDqZWlkmCQQAhTV-bKU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+> [Lesson4_Annotations_Solutions](https://d3c33hcgiwev3.cloudfront.net/vHkzTo-IQYW5M06PiIGFlQ_5e2103c4431642d79b048badb43dfff1_Lesson4_Annotations_Solutions.Rmd?Expires=1687392000&Signature=iWbEYA76W0hhNH1BhTIGc5ry94vHclhfd5tqOasomZSTRK1Q32W4dvyMS2VAA8T6hQTqdWvmgyCegkazl0YRxgZ8VOJr4fGZkuO~c7qYbAbxRYyRwfxdGcQ1qIpEPWidvWxnrdbCFQfBfD2bKzLPDYtMKDqZWlkmCQQAhTV-bKU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 Carefully read the instructions in the comments of the Rmd file and complete each step. Some steps may be as simple as running pre-written code, while others 
 may require you to write your own functions. After you finish the steps in the Rmd file, return here to confirm that your work is complete.
