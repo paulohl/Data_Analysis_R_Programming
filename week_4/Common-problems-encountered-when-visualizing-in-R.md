@@ -108,20 +108,30 @@ Everyone makes mistakes when writing code–it is just part of the learning proc
     ?geom_bar
     ```
     When you run the code, an entry on “geom_bar” appears in the Help viewer in
+    the lower-right pane of your RStudio workspace. The entry begins with a “Description” section that discusses bar charts:
 
-the lower-right pane of your RStudio workspace. The entry begins with a “Description” section that discusses bar charts:
 
-![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-27.png)
+    ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-27.png)
 
-The <https://www.rdocumentation.org/>[RDocumentation](https://www.rdocumentation.org/) <https://www.rdocumentation.org/> <https://www.rdocumentation.org/>[website](https://www.rdocumentation.org/) contains much of the same content in a slightly di fferent format, with additional examples and links.
+    The [RDocumentation website](https://www.rdocumentation.org/) contains much of the same content in a slightly di fferent format, with additional examples and links.
 
 -   ggplot2 website
-    1.  The [ggplot2](https://ggplot2.tidyverse.org/) <https://ggplot2.tidyverse.org/>[websit](https://ggplot2.tidyverse.org/) <https://ggplot2.tidyverse.org/>[e](https://ggplot2.tidyverse.org/), which is pa rt of the o fficial tidyverse documentation, is a great resource for all things related to ggplot2. It includes entries on key topics, useful examples of code, and links to other helpful resources.
+    *  The [ggplot2 websit](https://ggplot2.tidyverse.org/), which is pa rt of the o fficial tidyverse documentation, is a great resource for all things related to ggplot2. It
+      includes entries on key topics, useful examples of code, and links to other helpful resources.
 -   Search online
-    1.  Doing an online search for the error message you are encountering (include “R” and the function or package name in your search terms) is another option. There is a good chance someone else has already encountered the same error and posted about it online.
+    *  Doing an online search for the error message you are encountering (include “R” and the function or package name in your search terms) is another option. There is a good
+      chance someone else has already encountered the same error and posted about it online.
 -   The R community
-    1.  If the other resources don’t help, you can try reaching out to the R community online. There are lots of useful online forums and websites where people ask for and receive help, including:
--   [R](https://www.rfordatasci.com/)  <https://www.rfordatasci.com/>[for](https://www.rfordatasci.com/)  <https://www.rfordatasci.com/>[Data](https://www.rfordatasci.com/)  <https://www.rfordatasci.com/>[Science](https://www.rfordatasci.com/)  <https://www.rfordatasci.com/>[Online](https://www.rfordatasci.com/)  <https://www.rfordatasci.com/>[Learning](https://www.rfordatasci.com/) <https://www.rfordatasci.com/> <https://www.rfordatasci.com/>[Community](https://www.rfordatasci.com/)
--   [RStudio](https://community.rstudio.com/) <https://community.rstudio.com/> <https://community.rstudio.com/>[Community](https://community.rstudio.com/)
--   [Stackove](http://stackoverflow.com/)[rfl](http://stackoverflow.com/)[ow](http://stackoverflow.com/)
--   [Twi](https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click)[tt](https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click)[er](https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click) <https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click> <https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click>[(\#rstats)](https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click)
+    *  If the other resources don’t help, you can try reaching out to the R community online. There are lots of useful online forums and websites where people ask for and receive
+      help, including:
+-   [R for Data Science Online Learning Community](https://www.rfordatasci.com/)
+-   [RStudio Community](https://community.rstudio.com/)
+-   [Stackoverfow](http://stackoverflow.com/)
+-   [Twitter (\#rstats)](https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click)
+
+
+
+
+
+
+    
