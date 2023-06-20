@@ -34,7 +34,7 @@ Now, review the file you opened. Examine the data you pulled from and the functi
 
 When you create an R Markdown notebook, you want to be able to share it with others so they can understand your process and conclusions. You may also want to keep it for your own records as a way to keep track of your progress using R for analysis.
 
-** Open an Rmd file
+## Open an Rmd file
 ___________
 Now, you’ll transfer the code from the file you opened to a new R Markdown file so that you can write your own explanation of the steps you took. By doing this, you can create a more complete record of your overall thought process so that others will be able to understand it.
 
@@ -49,32 +49,37 @@ Now, you’ll transfer the code from the file you opened to a new R Markdown fil
 
 4. For now, leave the file in the recommended html output format. When you render the file later, it will appear as an html report. You can always change it to a pdf or Word file later. 
 
-5. Click OK. An R Markdown file will appear in a new tab in the script viewer pane. You should now have two tabs: one for the new Rmd file and one for your analysis. You can toggle back and forth between them when you need to by clicking on the tab you want to access.
+5. Click **OK**. An R Markdown file will appear in a new tab in the script viewer pane. You should now have two tabs: one for the new Rmd file and one for your analysis. You can toggle back and forth between them when you need to by clicking on the tab you want to access.
 
-Format your notebook
-
+### Format your notebook
+________________
 The first part of your notebook is the YAML header section. YAML is a language used in data files to improve human readability, and the YAML header section exists to provide information about a document to the humans reading it. RStudio automatically populates this section with the information you provide and other general information, such as the date you create the file.
 
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-36.png)
 
 You can change the information in this section at any time by adding text or by typing over the current text. Notice that each line has a number associated with it. That makes it easy to reference a location in the notebook and also for you to track where you make changes in the notebook.
 
 The next section with the gray background is a code chunk. You encountered these each time you ran a chunk of code during the activities in this course. 
 
-screenshot of a code chunk
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-37.png)    
+
+
 Again, RStudio automatically populates the notebook with this formatted default code chunk. This chunk basically means that your code will be shown in your final report when you’re ready to render it.
 
 All code chunks begin and end with delimiters. To start a code chunk, you can type three tick marks followed by a lowercase “r” in curly brackets: ```{r} 
 
 To end it, type just the three tick marks: ```
 
-There are two shortcuts to adding code. On your keyboard, you can press Ctrl + Alt + I (PC) or Cmd + Option + I (Mac). Or you can click the Add Chunk command in the editor toolbar:
+There are two shortcuts to adding code. On your keyboard, you can press **Ctrl + Alt + I** (PC) or **Cmd** + **Option** + **I** (Mac). Or you can click the **Add Chunk** command in the editor toolbar:
 
-screenshot of editor toolbar. the Add chunk button is selected
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-38.png)    
+
+
 To add a code chunk to your Rmd file, follow these steps: 
 
 1. Click the end of the last line of your Rmd file. Use either of the previously-mentioned shortcuts to create a code chunk.
 
-2. Press Enter (Windows) or Return (Mac) two or three times after the default code chunk to create space between the existing code chunk and the next code chunk you will add. 
+2. Press **Enter** (Windows) or **Return** (Mac) two or three times after the default code chunk to create space between the existing code chunk and the next code chunk you will add. 
 
 3. Copy the code from the analysis file you opened earlier and paste it in the gray area between the beginning and ending delimiters. 
 
@@ -82,24 +87,26 @@ To add a code chunk to your Rmd file, follow these steps:
 
 The white background is where you will type plain text with markdown syntax. As you learned earlier in this course, markdown is a syntax for formatting plain text files. Using markdown makes it easier to write and format text in your notebook. 
 
-screenshot of text file in markdown
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-39.png)       
+
+
 Here are some basic formatting options:
 
-To start a new paragraph, end a line with two spaces
+* To start a new paragraph, end a line with two spaces
 
-To apply italics to a word or phrase, place an asterisk at the beginning and at the end of the word or phrase, for example, *italics works*
+* To apply italics to a word or phrase, place an asterisk at the beginning and at the end of the word or phrase, for example, *italics works*
 
-To apply bold to a word or phrase, place two asterisks at the beginning and at the end of the word or phrase, for example, **bold is useful**
+* To apply bold to a word or phrase, place two asterisks at the beginning and at the end of the word or phrase, for example, **bold is useful**
 
-To create a header, type a hashtag (#) followed by a space and your text for example: # Getting Started with R Markdown
+* To create a header, type a hashtag (#) followed by a space and your text for example: # Getting Started with R Markdown
 
 When creating headers keep the following in mind:
 
-Headers will appear in blue
+* Headers will appear in blue
 
-A single hashtag is the largest header
+* A single hashtag is the largest header
 
-The more hashtags you add (up to six), the smaller the header
+* The more hashtags you add (up to six), the smaller the header
 
 To format comments in your notebook, follow these steps:
 
@@ -109,50 +116,60 @@ To format comments in your notebook, follow these steps:
 
 3. Add a smaller header below that to label the first part of your programming. Follow that with a description of the code chunk that you added.
 
-screenshot of formatted text
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-40.png)    
+
+
 Tick marks format the text to appear as code even though the text is not in a code chunk. The tick marks in the code above create a gray background behind “tidyverse” and “palmerpenguins.”
 
-Continue formatting
+### Continue formatting
+________________________________    
 
-Keep working on your formatting until you have at least three levels of headers and more descriptions for your analysis. At any point, you can click Knit in the script pane to render the file.
+
+Keep working on your formatting until you have at least three levels of headers and more descriptions for your analysis. At any point, you can click **Knit** in the script pane to render the file.
 
 When you render your file, you can preview how it will look in the format you selected when you opened the file. In this example, you will preview an html file.
 
-screenshot of formatted html file
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-41.png)    
+
+
 Rendering a file also automatically runs the code chunks to show the output. In this example, it shows that tidyverse was loaded using the library() function.
 
-screenshot of rendered file with tidyverse
-Reflection
-
-Suppose you include the header ## Conclusion in your R Markdown Notebook. How can you change this header to make it smaller?
-
-1 / 1 point
-
-Add another hashtag
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-42.png)    
 
 
-Remove a hashtag
+### Reflection
+______________    
 
 
-Add another space between the hashtags and the title
+1. Suppose you include the header ## Conclusion in your R Markdown Notebook. How can you change this header to make it smaller?
+
+(●) Add another hashtag
+
+( ) Remove a hashtag
+
+( ) Add another space between the hashtags and the title
+
+( ) Remove the space between the hashtags and the title
+
+> *Correct*
+> To make a header smaller, add more hashtags before the title. For example, ### Conclusion would be smaller than ## Conclusion. Going forward, you can use R Markdown syntax to > format your notebooks. This gives you creative freedom in how you want to present your analysis when you share it with others.
+
+2. In this activity, you made your own R Markdown notebook. In the text box below, write 2-3 sentences (40-60 words) in response to each of the following questions:
+
+* How can you make use of R Markdown notebooks in the future?
+
+* What formatting did you use in this R Markdown notebook that will make it easier for others to understand your analysis?
+
+> *Correct*
+> Congratulations on completing this hands-on activity! A good response would include that R Markdown notebooks are valuable resources for creating records and reports of your
+> analysis in R and formatting your work to share with others.
+>
+> Creating an R Markdown notebook is a useful way to keep track of your analyses for your own purposes. You can also use notebooks to create final reports of your analysis to share > with others. Going forward, you can take advantage of resources like the R Markdown Cheat Sheet to make your notebooks more effective tools.
+> 
 
 
-Remove the space between the hashtags and the title
 
-Correct
-To make a header smaller, add more hashtags before the title. For example, ### Conclusion would be smaller than ## Conclusion. Going forward, you can use R Markdown syntax to format your notebooks. This gives you creative freedom in how you want to present your analysis when you share it with others.
 
-2.
-Question 2
-In this activity, you made your own R Markdown notebook. In the text box below, write 2-3 sentences (40-60 words) in response to each of the following questions:
 
-How can you make use of R Markdown notebooks in the future?
 
-What formatting did you use in this R Markdown notebook that will make it easier for others to understand your analysis?
-
-1 / 1 point
-My main concern so far was writing a whole program in R and what should be presented. Should I write a full report including prints from the program? This module solved that all in my head. We actually will write chunks of code and build the analysts step by step, more or less like a smart SQL because R includes a multitude of libraries and tools to enable us develop the analytics and focus on the analysis rather than the code, it is a means to an end.
-Correct
-Congratulations on completing this hands-on activity! A good response would include that R Markdown notebooks are valuable resources for creating records and reports of your analysis in R and formatting your work to share with others.
-
-Creating an R Markdown notebook is a useful way to keep track of your analyses for your own purposes. You can also use notebooks to create final reports of your analysis to share with others. Going forward, you can take advantage of resources like the R Markdown Cheat Sheet to make your notebooks more effective tools.
+    
