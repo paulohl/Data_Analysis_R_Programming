@@ -37,75 +37,81 @@ RStudio does alert you to the problem. To the left of the line of code in your R
 
 
 
-![alt text]( )
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-26.png)
 
 RStudio lets you know that you have an unmatched opening bracket. So, to correct the code, you know that you need to add a closing bracket to match each opening bracket.
 
 Here is the correct code:
-
+```r
 ggplot(data = penguins) +
-
 geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 ### Using the plus sign to add layers
 
 In ggplot2, you need to add a plus sign (“+”) to your code when you add a new layer to your plot. Putting the plus sign in the wrong place is a common mistake. The plus sign should always be placed at the end of a line of code, and not at the beginning of a line.
 
 Here’s an example of code that includes incorrect placement of the plus sign:
-
+```r
 ggplot(data = penguins)
-
 \+ geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 In this case, R’s error message identifies the problem, and prompts you to correct it:
+```r
+Error: Cannot use \`+.gg()\` with a single argument. Did you 
+ accidentally put + on a new line?                            |   |
+```
 
-| Error: Cannot use \`+.gg()\` with a single argument. Did you |   |
-|--------------------------------------------------------------|---|
-| accidentally put + on a new line?                            |   |
 
 Here is the correct code:
-
+```r
 ggplot(data = penguins) +
+     geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
 
-geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 
 You also might accidentally use a pipe instead of a plus sign to add a new layer to your plot, like this:
-
+```r
 ggplot(data = penguins)%\>%
+   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
 
-geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 
 You then get the following error message:
-
+```r
 Error: \`data\` must be a data frame, or other object coercible by
+    \`fortify()\`, not an S3 object with class gg/ggplot
+```
 
-\`fortify()\`, not an S3 object with class gg/ggplot
 
 Here is the correct code:
-
+```r
 ggplot(data = penguins) +
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
 
-geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 
 Keeping these issues in mind and paying attention to details when you write code will help you reduce errors and save time, so you can stay focused on your analysis.
 
-# Help resources
+## Help resources
 
 Everyone makes mistakes when writing code–it is just part of the learning process. Fortunately, there are lots of helpful resources available in RStudio and online.
 
 -   R documentation
 
-○ R has built-in documentation for all functions and packages. To learn more
-
-about any R function, just run the code **?function_name** . For example, if you want to learn more about the geom_bar function, type:
-
-?geom_bar
-
-When you run the code, an entry on “geom_bar” appears in the Help viewer in
+        ○ R has built-in documentation for all functions and packages. To learn more
+    about any R function, just run the code **?function_name** . For example, if you want to learn more about the geom_bar function, type:
+    ```r
+    ?geom_bar
+    ```
+    When you run the code, an entry on “geom_bar” appears in the Help viewer in
 
 the lower-right pane of your RStudio workspace. The entry begins with a “Description” section that discusses bar charts:
 
-![](media/e77d7e285e5a5a05aaf036537a989a56.jpg)
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screen-Shot-27.png)
 
 The <https://www.rdocumentation.org/>[RDocumentation](https://www.rdocumentation.org/) <https://www.rdocumentation.org/> <https://www.rdocumentation.org/>[website](https://www.rdocumentation.org/) contains much of the same content in a slightly di fferent format, with additional examples and links.
 
