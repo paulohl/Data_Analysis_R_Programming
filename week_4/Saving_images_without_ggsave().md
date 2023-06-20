@@ -24,13 +24,18 @@ When you make a plot in R, it has to be “sent” to a specific graphics device
 
 To learn more about the different processes for saving images, check out these resources: 
 
-Saving images without ggsave()
+* [Saving images without ggsave()](https://ggplot2.tidyverse.org/reference/ggsave.html#saving-images-without-ggsave-)
 : This resource is pulled directly from the ggplot2 documentation at 
-tidyverse.org
+[tidyverse.org](https://www.tidyverse.org/)
 . It explores the tools you can use to save images in R, and includes several examples to follow along with and learn how to save images in your own R workspace. 
 
-How to save a ggplot
+* [How to save a ggplot](https://www.datanovia.com/en/blog/how-to-save-a-ggplot/)
 : This resource covers multiple different methods for saving ggplots. It also includes copyable code with explanations about how each function is being used so that you can better understand each step in the process.  
 
-Saving a plot in R:
- This guide covers multiple file formats that you can use to save your plots in R. Each section includes an example with an actual plot that you can copy and use for practice in your own R workspace. 
+* [Saving a plot in R](https://www.datamentor.io/r-programming/saving-plot/):
+ This guide covers multiple file formats that you can use to save your plots in R. Each section includes an example with an actual plot that you can copy and use for practice in your own R workspace.
+
+
+
+
+
