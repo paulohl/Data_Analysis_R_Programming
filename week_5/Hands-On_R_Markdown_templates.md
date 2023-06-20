@@ -19,7 +19,7 @@ _______________________________
 
 You’re already familiar with a template in R Markdown from earlier videos and activities. When you create a new R Markdown document from the RStudio menu (File -> New File -> R Markdown), a default example document appears in the RStudio source editor:
 
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-201.png)
 
 Many customized templates in R packages have a similar structure that includes a YAML header, code chunks, and text headers.
 
@@ -65,11 +65,11 @@ RStudio
 
 4. You can access available templates in the R Markdown dialog box that appears when you create a new file. To create a new file in R Markdown, click File > New File > R Markdown.
 
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-202.png)
 
 5. From the R Markdown dialog box, click From Template to access a list of R Markdown templates provided by all installed packages.
 
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-204.png)
 
 In the viewer, you may notice some template options from the vitae package: Curriculum Vitae (Awesome-CV format), Curriculum Vitae (Hyndman format), Curriculum Vitae (ModernCV format), etc. These are different types of CV templates. 
 
@@ -85,11 +85,11 @@ _____________________________________
 
 The template will appear in the source editor pane. It contains a YAML header, code chunks, and text headers, just like the default example document that appears when you create a new R Markdown document. The example CV uses the scientist Marie Curie, the first woman to win a Nobel Prize (and the first person to win two Nobel Prizes). The YAML header contains entries for general information, such as name, address, phone number, and more. 
 
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-205.png)
 
 If you scroll down, you’ll find header text that introduces separate sections for topics like personal information: 
 
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-206.png)
 
 To display the output format of the template, click Knit to render the file. You don't need to open the dropdown menu to select a format, as this template defaults to a pdf.
 
@@ -97,7 +97,7 @@ Note: If your browser blocks pop-ups and returns an error, make sure to click Tr
 
 This will result in a pdf that displays the custom template for the CV:  
 
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-207.png)
 
 This pdf can be found and downloaded from the folder in the Files tab of the lower-right console. 
 
