@@ -27,18 +27,18 @@ ______________________________________________
 Code chunks are designated in R Markdown with **delimiters**. A delimiter is a character that indicates the beginning or end of a data item. In this case, the code chunk is marked 
 using three ticks followed by a curly bracket, descriptive text, and a closed curly bracket. You then have an empty space to add the appropriate code. Here is the general syntax:
 
-```{r}
+\```{r}
 
-```
+\```
 
 When creating code chunks, it is useful to keep in mind that the output of the code chunk will appear immediately after the chunk when it is executed. Because of that, it is good 
 practice to split chunks that produce multiple outputs into two or more chunks. That way, each code chunk only produces one output, which can be easier for users to execute and 
 explore. 
 
 3. Using the code from your ggplot() visualization, create two new chunks. Type the following in the first code chunk to call the required libraries, load the penguins data,
-4. and return a view of the penguins data:
+   and return a view of the penguins data:
 
-```{r ggplot for penguin data}
+\```{r ggplot for penguin data}
 
 library(ggplot2)
 
@@ -48,19 +48,19 @@ data(penguins)
 
 View(penguins)
 
-```
+\```
 
 Note that the only output from the code chunk is a tabular view of your data as result of the View function.
 
 4. Then, type the following in the second code chunk to create the visualization:
 
-```{r ggplot for penguin data visualization}
+\```{r ggplot for penguin data visualization}
 
 ggplot(data = penguins) +
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 
-```
+\```
 
 5. Finally, run each code chunk to examine the results. You might recognize this visualization from a 
 [previous activity](https://www.coursera.org/learn/data-analysis-r/item/fmyHH)
