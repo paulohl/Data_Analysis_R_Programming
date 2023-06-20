@@ -17,26 +17,10 @@ A graphics device allows a plot to appear on your computer. Examples include:
 
 When you make a plot in R, it has to be “sent” to a specific graphics device. To save images without using ggsave(), you can open an R graphics device like png() or pdf(); these will allow you to save your plot as a .png or .pdf file. You can also choose to print the plot and then close the device using dev.off().
 
-Example of using png()
-_________________
-Example of using pdf()
+|   Example of using png()   |   Example of using pdf()    |
+|:---------------------------|:----------------------------|
+|  ```r  png(file = "exampleplot.png", bg = "transparent") plot(1:10)  rect(1, 5, 3, 7, col = "white") dev.off() ```  | ```r pdf(file = "/Users/username/Desktop/example.pdf",    width = 4,    height = 4)   plot(x = 1:10,  y = 1:10)    abline(v = 0) text(x = 0, y = 1, labels = "Random text") dev.off()   ``` |    
 
-png(file = "exampleplot.png", bg = "transparent")
-plot(1:10)
-rect(1, 5, 3, 7, col = "white")
-dev.off()
-
-
-
-
-pdf(file = "/Users/username/Desktop/example.pdf",    
-       width = 4,     
-       height = 4) 
-plot(x = 1:10,     
-        y = 1:10)
-abline(v = 0)
-text(x = 0, y = 1, labels = "Random text")
-dev.off()
 
 To learn more about the different processes for saving images, check out these resources: 
 
