@@ -12,7 +12,7 @@ Annotations are a useful way to add notes to your plot. They help you explain th
 
 Check out these resources to learn more:
 
-* [Create an annotation layer](Create an annotation layer)
+* [Create an annotation layer](https://ggplot2.tidyverse.org/reference/annotate.html)
 : This guide explains how to add an annotation layer with ggplot2. It includes sample code and data visualizations with annotations created in ggplot2. 
 
 * [How to annotate a plot in ggplot2](https://www.r-graph-gallery.com/233-add-annotations-on-ggplot2-chart.html)
