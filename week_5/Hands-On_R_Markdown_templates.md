@@ -46,7 +46,7 @@ Some popular packages with templates for R Markdown include the following:
  package facilitates writing books and long-form articles
 
 * The 
-[flexdashboard](
+[flexdashboard](https://github.com/rstudio/flexdashboard)
  package lets you publish a group of related data visualizations as a dashboard
 
 ### Access the CV template in RStudio
