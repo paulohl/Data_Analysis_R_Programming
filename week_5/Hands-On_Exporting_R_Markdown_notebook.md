@@ -38,7 +38,7 @@ To begin, follow these steps:
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-45.png)
 
 6. Click Export… and name the file by a title that will help you find it later. Click **Download**. Now your exported file will be downloaded to your computer.
-7. 
+
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-46.png)
 
