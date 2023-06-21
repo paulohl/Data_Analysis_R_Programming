@@ -17,7 +17,7 @@ By the end of this activity, you will be able to adapt pre-existing templates to
 _______________________________    
 
 
-You’re already familiar with a template in R Markdown from earlier videos and activities. When you create a new R Markdown document from the RStudio menu (File -> New File -> R Markdown), a default example document appears in the RStudio source editor:
+You’re already familiar with a template in R Markdown from earlier videos and activities. When you create a new R Markdown document from the RStudio menu **(File -> New File -> R Markdown)**, a default example document appears in the RStudio source editor:
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-201.png)
 
@@ -30,23 +30,23 @@ _____________________________
 Some popular packages with templates for R Markdown include the following:
 
 The 
-vitae
+[vitae](https://github.com/mitchelloharawild/vitae)
  package contains templates for creating and maintaining a résumé or curriculum vitae (CV)
 
 The 
-rticles
+[rticles](https://github.com/rstudio/rticles)
  package provides templates for various journals and publishers
 
 The 
-learnr
+[learnr](https://github.com/rstudio/learnr)
  package makes it easy to turn any R Markdown document into an interactive tutorial 
 
 The 
-bookdown
+[bookdown](https://github.com/rstudio/flexdashboard)
  package facilitates writing books and long-form articles
 
 The 
-flexdashboard
+[flexdashboard](
  package lets you publish a group of related data visualizations as a dashboard
 
 ### Access the CV template in RStudio
@@ -56,28 +56,28 @@ _____________________________________
 To examine the CV template included in the “vitae” package, follow these steps:
 
 1. First, log in to 
-RStudio
+[RStudio](http://rstudio.cloud/)
 .
 
-2. In the console, type install.packages("vitae") to install the vitae package.
+2. In the console, type **install.packages("vitae")** to install the vitae package.
 
-3. Type library(vitae) to load the package.
+3. Type **library(vitae)** to load the package.
 
-4. You can access available templates in the R Markdown dialog box that appears when you create a new file. To create a new file in R Markdown, click File > New File > R Markdown.
+4. You can access available templates in the R Markdown dialog box that appears when you create a new file. To create a new file in R Markdown, click **File > New File > R Markdown**.
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-202.png)
 
-5. From the R Markdown dialog box, click From Template to access a list of R Markdown templates provided by all installed packages.
+5. From the R Markdown dialog box, click **From Template** to access a list of R Markdown templates provided by all installed packages.
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-204.png)
 
 In the viewer, you may notice some template options from the vitae package: Curriculum Vitae (Awesome-CV format), Curriculum Vitae (Hyndman format), Curriculum Vitae (ModernCV format), etc. These are different types of CV templates. 
 
-6. Scroll down and click Curriculum Vitae (Twenty seconds format). 
+6. Scroll down and click **Curriculum Vitae (Twenty seconds format)**. 
 
 7. Add a name for the new file directory that will contain the files bundled in the template, such as “CV-Example.” 
 
-8. Finally, click OK.
+8. Finally, click *OK*.
 
 ### Convert the template to PDF format
 _____________________________________    
@@ -91,9 +91,9 @@ If you scroll down, you’ll find header text that introduces separate sections 
 
 ![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Display-206.png)
 
-To display the output format of the template, click Knit to render the file. You don't need to open the dropdown menu to select a format, as this template defaults to a pdf.
+To display the output format of the template, click **Knit** to render the file. You don't need to open the dropdown menu to select a format, as this template defaults to a pdf.
 
-Note: If your browser blocks pop-ups and returns an error, make sure to click Try Again. 
+**Note**: If your browser blocks pop-ups and returns an error, make sure to click **Try Again**. 
 
 This will result in a pdf that displays the custom template for the CV:  
 
