@@ -1,21 +1,13 @@
 data("ToothGrowth")
 View(ToothGrowth)
 
-filtered_tg <- filter(ToothGrowth, dose == 0.5)
+filtered_tg <- filter(ToothGrowth, dose == 1)
 View(filtered_tg)
-
 arrange(filtered_tg, len)
-
-# using nested function
-arrange(filter(ToothGrowth, dose == 0.5), len) 
-
-# using pipe operators
+view(filtered_tg)
+arrange(filter(ToothGrowth, dose == 1), len)
+view(filtered_tg)
 filtered_toothgrowth <- ToothGrowth %>%
-  filter(dose == 0.5) %>%
-
-  group_by(supp) %>%
-  summarize(mean_len = mean(len, na.rm = T),.group="drop")
-
+    filter(dose == 1) %>%
+    arrange(len)
 View(filtered_toothgrowth)
-
-# arrange(len) on line 15, remove 16 and 17
