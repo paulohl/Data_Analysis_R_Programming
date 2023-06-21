@@ -17,28 +17,30 @@ ___________________________________
 
 For this activity, you will export a notebook you created in previous activities as both an html document and a pdf. 
 
-You will use the Knit option to export your work. This will allow you to convert the Rmd file to another file type that is more readable and useful to other users. 
+You will use the **Knit** option to export your work. This will allow you to convert the Rmd file to another file type that is more readable and useful to other users. 
 
 To begin, follow these steps:
 
 1. Open a document in 
-RStudio
-. Then, find the Knit button on the toolbar at the top of your document window. Click it to open a dropdown menu with a few export options. 
+[RStudio](https://rstudio.cloud/)
+. Then, find the **Knit** button on the toolbar at the top of your document window. Click it to open a dropdown menu with a few export options. 
 
-2. Click on the option that matches the file type you want to export your notebook as. Begin with html. Once you click Knit to HTML, your console might take a moment to process. When it is finished, it will automatically open your new file. 
+2. Click on the option that matches the file type you want to export your notebook as. Begin with html. Once you click **Knit to HTML**, your console might take a moment to process. When it is finished, it will automatically open your new file. 
 
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-44.png)
 
-
-3. Now, repeat Step 2 but select Knit to PDF. Explore how these file formats are different from your original Rmd file.
+3. Now, repeat Step 2 but select **Knit to PDF**. Explore how these file formats are different from your original Rmd file.
 
 4. To download the files you exported, find them in the Files explorer in the bottom-right of the screen.
 
-5. Check the boxes of the file(s) you want to download and click the More dropdown.
+5. Check the boxes of the file(s) you want to download and click the **More** dropdown.
 
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-45.png)
 
+6. Click Export… and name the file by a title that will help you find it later. Click **Download**. Now your exported file will be downloaded to your computer.
+7. 
 
-6. Click Export… and name the file by a title that will help you find it later. Click Download. Now your exported file will be downloaded to your computer.
-
+![alt text](https://github.com/paulohl/Data_Analysis_R_Programming/blob/main/img/Screenshot-46.png)
 
 
 After you have successfully exported and downloaded your R Markdown notebook, you can share it with a friend, colleague, or the discussion forums to get feedback. After you have gotten their feedback, you can make revisions and continue to share your work to refine your notebook even more. 
